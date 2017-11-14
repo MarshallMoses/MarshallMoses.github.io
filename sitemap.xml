@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://mamocreative.com/index.html</loc>
-    <lastmod>2017-11-13</lastmod>
+    <lastmod>2017-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/pasted%20image%20800x450-crop-u512.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/pasted%20image%20800x450-crop-u5122.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/pasted%20image%20800x450-crop-u5123.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://mamocreative.com/resume.html</loc>

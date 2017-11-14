@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mamocreative.com" resolutions="1x" timestamp="1510689055456">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mamocreative.com" resolutions="1x" timestamp="1510691882769">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="project-3.css" crc="4193191577" ref="project-3"/>
     <file name="project-2.css" crc="4193191577" ref="project-2"/>
-    <file name="index.css" crc="23769339" ref="index"/>
-    <file name="nomq_index.css" crc="4251410555" ref="index"/>
+    <file name="index.css" crc="34787629" ref="index"/>
+    <file name="nomq_index.css" crc="245162783" ref="index"/>
     <file name="resume.css" crc="4193191577" ref="resume"/>
     <file name="about--contact.css" crc="4193191577" ref="about--contact"/>
     <file name="project-1.css" crc="4193191577" ref="project-1"/>
@@ -19,7 +19,19 @@
     <file name="jquery.museresponsive.js" crc="3955820958" ref="index"/>
     <file name="require.js" crc="4157109226" ref="index:resume:project-1:about--contact:project-2:project-3:project-4"/>
   </folder>
-  <file name="index.html" crc="3895276394" seo="true" mt="1510612715227" redirect="true"/>
+  <folder name="images">
+    <file name="pasted image 800x450-crop-u512.jpg" crc="3790806096" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 800x450-crop-u5122.jpg" crc="237743183" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 800x450-crop-u5123.jpg" crc="4105089524" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3772812261" seo="true" mt="1510691866087" redirect="true"/>
   <file name="resume.html" crc="4156918180" seo="true" mt="1510609666055" redirect="false"/>
   <file name="project-1.html" crc="4195132272" seo="true" mt="1510609713581" redirect="false"/>
   <file name="about--contact.html" crc="3831262334" seo="true" mt="1510609705167" redirect="false"/>
