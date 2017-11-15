@@ -6,49 +6,64 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mamocreative.com/images/pasted%20image%20800x450-crop-u512.jpg</image:loc>
+      <image:loc>http://mamocreative.com/images/ribblehead-viaduct-2443085_1920.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mamocreative.com/images/pasted%20image%20800x450-crop-u5122.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/pasted%20image%20800x450-crop-u5123.jpg</image:loc>
+      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://mamocreative.com/resume.html</loc>
-    <lastmod>2017-11-13</lastmod>
+    <lastmod>2017-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://mamocreative.com/project-1.html</loc>
-    <lastmod>2017-11-13</lastmod>
+    <lastmod>2017-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://mamocreative.com/about--contact.html</loc>
-    <lastmod>2017-11-13</lastmod>
+    <lastmod>2017-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://mamocreative.com/project-2.html</loc>
-    <lastmod>2017-11-13</lastmod>
+    <lastmod>2017-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://mamocreative.com/project-3.html</loc>
-    <lastmod>2017-11-13</lastmod>
+    <lastmod>2017-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://mamocreative.com/project-4.html</loc>
-    <lastmod>2017-11-13</lastmod>
+    <lastmod>2017-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
+    </image:image>
   </url>
 </urlset>

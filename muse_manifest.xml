@@ -1,14 +1,22 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mamocreative.com" resolutions="1x" timestamp="1510691882769">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mamocreative.com" resolutions="1x" timestamp="1510715803903">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="project-3.css" crc="4193191577" ref="project-3"/>
-    <file name="project-2.css" crc="4193191577" ref="project-2"/>
-    <file name="index.css" crc="34787629" ref="index"/>
-    <file name="nomq_index.css" crc="245162783" ref="index"/>
-    <file name="resume.css" crc="4193191577" ref="resume"/>
-    <file name="about--contact.css" crc="4193191577" ref="about--contact"/>
-    <file name="project-1.css" crc="4193191577" ref="project-1"/>
-    <file name="project-4.css" crc="4193191577" ref="project-4"/>
+    <file name="master_a-master.css" crc="257883533" ref="project-3:project-2:index:resume:about--contact:project-1:project-4"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="project-3:project-2:index:resume:about--contact:project-1:project-4"/>
+    <file name="project-3.css" crc="4012597771" ref="project-3"/>
+    <file name="nomq_project-3.css" crc="3872547096" ref="project-3"/>
+    <file name="project-2.css" crc="4012597771" ref="project-2"/>
+    <file name="nomq_project-2.css" crc="3872547096" ref="project-2"/>
+    <file name="index.css" crc="3850510488" ref="index"/>
+    <file name="nomq_index.css" crc="468573011" ref="index"/>
+    <file name="resume.css" crc="4012597771" ref="resume"/>
+    <file name="nomq_resume.css" crc="3872547096" ref="resume"/>
+    <file name="about--contact.css" crc="4012597771" ref="about--contact"/>
+    <file name="nomq_about--contact.css" crc="3872547096" ref="about--contact"/>
+    <file name="project-1.css" crc="4012597771" ref="project-1"/>
+    <file name="nomq_project-1.css" crc="3872547096" ref="project-1"/>
+    <file name="project-4.css" crc="4012597771" ref="project-4"/>
+    <file name="nomq_project-4.css" crc="3872547096" ref="project-4"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:resume:project-1:about--contact:project-2:project-3:project-4"/>
@@ -16,26 +24,43 @@
     <file name="whatinput.js" crc="86476730" ref="index:resume:project-1:about--contact:project-2:project-3:project-4"/>
     <file name="museconfig.js" crc="4153641093" ref="index:resume:project-1:about--contact:project-2:project-3:project-4"/>
     <file name="jquery.watch.js" crc="99325471" ref="index:resume:project-1:about--contact:project-2:project-3:project-4"/>
-    <file name="jquery.museresponsive.js" crc="3955820958" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:resume:project-1:about--contact:project-2:project-3:project-4"/>
     <file name="require.js" crc="4157109226" ref="index:resume:project-1:about--contact:project-2:project-3:project-4"/>
   </folder>
   <folder name="images">
-    <file name="pasted image 800x450-crop-u512.jpg" crc="3790806096" seo="true" ref="index">
+    <file name="ribblehead-viaduct-2443085_1920.jpg" crc="4260972443" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="pasted image 800x450-crop-u5122.jpg" crc="237743183" seo="true" ref="index">
+    <file name="mamo-01.svg" crc="3822884056" seo="true" ref="index:resume:project-1:about--contact:project-2:project-3:project-4">
+      <caption webpage="about--contact" alt=""/>
+      <caption webpage="about--contact" alt=""/>
+      <caption webpage="project-1" alt=""/>
+      <caption webpage="project-1" alt=""/>
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="pasted image 800x450-crop-u5123.jpg" crc="4105089524" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="project-4" alt=""/>
+      <caption webpage="project-4" alt=""/>
+      <caption webpage="project-3" alt=""/>
+      <caption webpage="project-3" alt=""/>
+      <caption webpage="project-2" alt=""/>
+      <caption webpage="project-2" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="resume" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="mamo-01_poster_.png" crc="4085837633" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:resume:project-1:about--contact:project-2:project-3:project-4"/>
   </folder>
-  <file name="index.html" crc="3772812261" seo="true" mt="1510691866087" redirect="true"/>
-  <file name="resume.html" crc="4156918180" seo="true" mt="1510609666055" redirect="false"/>
-  <file name="project-1.html" crc="4195132272" seo="true" mt="1510609713581" redirect="false"/>
-  <file name="about--contact.html" crc="3831262334" seo="true" mt="1510609705167" redirect="false"/>
-  <file name="project-2.html" crc="3975137054" seo="true" mt="1510609721705" redirect="false"/>
-  <file name="project-3.html" crc="3780043972" seo="true" mt="1510609726397" redirect="false"/>
-  <file name="project-4.html" crc="441977219" seo="true" mt="1510609740031" redirect="false"/>
+  <file name="index.html" crc="185320660" seo="true" mt="1510715681747" redirect="true"/>
+  <file name="resume.html" crc="4197758923" seo="true" mt="1510715108545" redirect="true"/>
+  <file name="project-1.html" crc="3801748150" seo="true" mt="1510715108545" redirect="true"/>
+  <file name="about--contact.html" crc="4197968199" seo="true" mt="1510715108545" redirect="true"/>
+  <file name="project-2.html" crc="4162550843" seo="true" mt="1510715108545" redirect="true"/>
+  <file name="project-3.html" crc="398089445" seo="true" mt="1510715108545" redirect="true"/>
+  <file name="project-4.html" crc="4292383651" seo="true" mt="1510715108545" redirect="true"/>
 </manifest>
