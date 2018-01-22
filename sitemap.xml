@@ -2,80 +2,89 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://mamocreative.com/index.html</loc>
-    <lastmod>2017-11-15</lastmod>
+    <lastmod>2018-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mamocreative.com/images/ribblehead-viaduct-2443085_1920.jpg</image:loc>
+      <image:loc>http://mamocreative.com/images/mamo_logo-02.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
+      <image:loc>http://mamocreative.com/images/seattle-12-crop-u7163.jpg</image:loc>
     </image:image>
-  </url>
-  <url>
-    <loc>http://mamocreative.com/resume.html</loc>
-    <lastmod>2017-11-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
+      <image:loc>http://mamocreative.com/images/seattle-14-crop-u7446.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/seattle-10.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/seattle-12-crop-u71632.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/seattle-14-crop-u74462.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/seattle-12-crop-u71633.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/seattle-14-crop-u74463.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/seattle-10-crop-u7494.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/seattle-12-crop-u71634.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/seattle-10199x199.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/seattle-14385x241.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://mamocreative.com/project-1.html</loc>
-    <lastmod>2017-11-15</lastmod>
+    <lastmod>2018-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mamocreative.com/images/ribblehead-viaduct-2443085_1920.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://mamocreative.com/about--contact.html</loc>
-    <lastmod>2017-11-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
+      <image:loc>http://mamocreative.com/images/mamo_logo-02.svg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://mamocreative.com/project-2.html</loc>
-    <lastmod>2017-11-15</lastmod>
+    <lastmod>2018-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mamocreative.com/images/ribblehead-viaduct-2443085_1920.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
+      <image:loc>http://mamocreative.com/images/mamo_logo-02.svg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://mamocreative.com/project-3.html</loc>
-    <lastmod>2017-11-15</lastmod>
+    <loc>http://mamocreative.com/about.html</loc>
+    <lastmod>2018-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mamocreative.com/images/ribblehead-viaduct-2443085_1920.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
+      <image:loc>http://mamocreative.com/images/mamo_logo-02.svg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://mamocreative.com/project-4.html</loc>
-    <lastmod>2017-11-15</lastmod>
+    <lastmod>2018-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mamocreative.com/images/ribblehead-viaduct-2443085_1920.jpg</image:loc>
+      <image:loc>http://mamocreative.com/images/mamo_logo-02.svg</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>http://mamocreative.com/project-3.html</loc>
+    <lastmod>2018-01-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mamocreative.com/images/mamo-01.svg</image:loc>
+      <image:loc>http://mamocreative.com/images/mamo_logo-02.svg</image:loc>
     </image:image>
   </url>
 </urlset>
