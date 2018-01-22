@@ -2,18 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://mamocreative.com/index.html</loc>
-<<<<<<< HEAD
     <lastmod>2018-01-21</lastmod>
-=======
-    <lastmod>2018-01-19</lastmod>
->>>>>>> 68d9ebfc86026e96ec9f55df417647aa9b3da4b9
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://mamocreative.com/images/mamo_logo-02.svg</image:loc>
     </image:image>
     <image:image>
-<<<<<<< HEAD
       <image:loc>http://mamocreative.com/images/seattle-12-crop-u7163.jpg</image:loc>
     </image:image>
     <image:image>
@@ -45,51 +40,11 @@
     </image:image>
     <image:image>
       <image:loc>http://mamocreative.com/images/seattle-14385x241.jpg</image:loc>
-=======
-      <image:loc>http://mamocreative.com/images/metro-2942353_1920-crop-u7163.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/town-2430571_1280-crop-u7446.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/architecture-2256489_1920-crop-u7494.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/metro-2942353_1920-crop-u71632.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/town-2430571_1280-crop-u74462.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/architecture-2256489_1920-crop-u74942.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/metro-2942353_1920-crop-u71633.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/town-2430571_1280-crop-u74463.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/architecture-2256489_1920-crop-u74943.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/metro-2942353_1920-crop-u71634.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/town-2430571_1280-crop-u74464.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/architecture-2256489_1920-crop-u74944.jpg</image:loc>
->>>>>>> 68d9ebfc86026e96ec9f55df417647aa9b3da4b9
     </image:image>
   </url>
   <url>
     <loc>http://mamocreative.com/project-1.html</loc>
-<<<<<<< HEAD
     <lastmod>2018-01-21</lastmod>
-=======
-    <lastmod>2018-01-19</lastmod>
->>>>>>> 68d9ebfc86026e96ec9f55df417647aa9b3da4b9
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -98,11 +53,7 @@
   </url>
   <url>
     <loc>http://mamocreative.com/project-2.html</loc>
-<<<<<<< HEAD
     <lastmod>2018-01-21</lastmod>
-=======
-    <lastmod>2018-01-19</lastmod>
->>>>>>> 68d9ebfc86026e96ec9f55df417647aa9b3da4b9
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -111,11 +62,7 @@
   </url>
   <url>
     <loc>http://mamocreative.com/about.html</loc>
-<<<<<<< HEAD
     <lastmod>2018-01-21</lastmod>
-=======
-    <lastmod>2018-01-19</lastmod>
->>>>>>> 68d9ebfc86026e96ec9f55df417647aa9b3da4b9
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -124,11 +71,7 @@
   </url>
   <url>
     <loc>http://mamocreative.com/project-4.html</loc>
-<<<<<<< HEAD
     <lastmod>2018-01-21</lastmod>
-=======
-    <lastmod>2018-01-19</lastmod>
->>>>>>> 68d9ebfc86026e96ec9f55df417647aa9b3da4b9
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -137,11 +80,7 @@
   </url>
   <url>
     <loc>http://mamocreative.com/project-3.html</loc>
-<<<<<<< HEAD
     <lastmod>2018-01-21</lastmod>
-=======
-    <lastmod>2018-01-19</lastmod>
->>>>>>> 68d9ebfc86026e96ec9f55df417647aa9b3da4b9
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
