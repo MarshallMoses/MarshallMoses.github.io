@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mamocreative.com" resolutions="1x" timestamp="1516585038304">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mamocreative.com" resolutions="1x" timestamp="1516589298959">
   <folder name="css">
     <file name="site_global.css" crc="3786922695"/>
-    <file name="master_a-master.css" crc="158477393" ref="project-1:index:project-3:about:project-4:project-2"/>
-    <file name="nomq_preview_master_a-master.css" crc="3920351629" ref="project-1:index:project-3:about:project-4:project-2"/>
+    <file name="master_a-master.css" crc="3834042334" ref="project-1:index:project-3:about:project-4:project-2"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="project-1:index:project-3:about:project-4:project-2"/>
     <file name="project-1.css" crc="4264134124" ref="project-1"/>
     <file name="nomq_project-1.css" crc="431734549" ref="project-1"/>
-    <file name="index.css" crc="4134702572" ref="index"/>
-    <file name="nomq_index.css" crc="118691418" ref="index"/>
+    <file name="index.css" crc="15011134" ref="index"/>
+    <file name="nomq_index.css" crc="3970751272" ref="index"/>
     <file name="project-3.css" crc="4264134124" ref="project-3"/>
     <file name="nomq_project-3.css" crc="431734549" ref="project-3"/>
     <file name="about.css" crc="256132379" ref="about"/>
@@ -53,7 +53,7 @@
       <caption webpage="project-4" alt=""/>
       <caption webpage="project-4" alt=""/>
     </file>
-    <file name="mamo_logo-02_poster_.png" crc="493041432" ref="about"/>
+    <file name="mamo_logo-02_poster_.png" crc="493041432" ref="about:index"/>
     <file name="blank.gif" crc="4208392903" ref="about:project-1:project-2:project-3:project-4:index"/>
     <file name="seattle-12-crop-u7163.jpg" crc="3782152539" seo="true" ref="index">
       <caption webpage="index" alt=""/>
@@ -95,5 +95,5 @@
   <file name="project-2.html" crc="432327312" seo="true" mt="1516574858215" redirect="true"/>
   <file name="project-3.html" crc="33548607" seo="true" mt="1516574858215" redirect="true"/>
   <file name="project-4.html" crc="256727368" seo="true" mt="1516574858215" redirect="true"/>
-  <file name="index.html" crc="133877281" seo="true" mt="1516575200374" redirect="true"/>
+  <file name="index.html" crc="4152684739" seo="true" mt="1516589290910" redirect="true"/>
 </manifest>
