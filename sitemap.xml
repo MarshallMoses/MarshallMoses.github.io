@@ -9,22 +9,13 @@
       <image:loc>http://mamocreative.com/images/mamo_logo-02.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mamocreative.com/images/seattle-12-crop-u7163.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://mamocreative.com/images/seattle-14-crop-u7446.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mamocreative.com/images/seattle-10.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mamocreative.com/images/seattle-12-crop-u71632.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://mamocreative.com/images/seattle-14-crop-u74462.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mamocreative.com/images/seattle-12-crop-u71633.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mamocreative.com/images/seattle-14-crop-u74463.jpg</image:loc>
@@ -33,13 +24,13 @@
       <image:loc>http://mamocreative.com/images/seattle-10-crop-u7494.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mamocreative.com/images/seattle-12-crop-u71634.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://mamocreative.com/images/seattle-10199x199.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mamocreative.com/images/seattle-14385x241.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mamocreative.com/images/seattle-2.jpg</image:loc>
     </image:image>
   </url>
   <url>
