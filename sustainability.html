@@ -6,33 +6,26 @@
   <meta name="generator" content="2018.0.0.379"/>
   
   <script type="text/javascript">
-   // Redirect to phone/tablet as necessary
-(function(a,b,c){var d=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var f=a[b]+"MaxTouchPoints";if(f in navigator&&navigator[f])return!0}try{return document.createEvent("TouchEvent"),!0}catch(d){}return!1}(),g=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var f=b[c];f.charAt(0)==" ";)f=f.substring(1,f.length);if(f.indexOf(a)==
-0)return f.substring(a.length,f.length)}return null};if(g("inbrowserediting")!="true"){var f,g=g("devicelock");g=="phone"&&c?f=c:g=="tablet"&&b&&(f=b);if(g!=a&&!f)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&c?f=c:window.matchMedia("(max-device-width: 960px)").matches&&b&&d&&(f=b);else{var a=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),g=window.screen.systemXDPI||0,i=window.screen.systemYDPI||0,g=g>0&&i>0?Math.min(screen.width/g,screen.height/i):
-0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","tablet/slider-project.html","phone/slider-project.html");
-
-// Update the 'nojs'/'js' class on the html node
+   // Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "slider-project.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "jquery.musepolyfill.bgsize.js", "sustainability.css"], "outOfDate":[]};
 </script>
   
-  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://muse.creative-routine.a2hosted.com/clymene/phone/slider-project.html"/>
-  <link media="only screen and (max-width: 960px)" rel="alternate" href="http://muse.creative-routine.a2hosted.com/clymene/tablet/slider-project.html"/>
   <link rel="shortcut icon" href="images/favicon.ico?crc=166967310"/>
-  <title>SLIDER PROJECT</title>
+  <title>Sustainability</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=102659113"/>
-  <link rel="stylesheet" type="text/css" href="css/master_simple-menu.css?crc=169739645"/>
-  <link rel="stylesheet" type="text/css" href="css/slider-project.css?crc=445681249" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_simple-menu.css?crc=3772325562"/>
+  <link rel="stylesheet" type="text/css" href="css/sustainability.css?crc=4240362982" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
   <script src="https://webfonts.creativecloud.com/lato:n4:all;montserrat:n4:all.js" type="text/javascript"></script>
-  <script src="https://use.typekit.net/ik/pHg2fEtFyhNiF0EWkLyzOPwtWkdPXEZDeR_Bmo0S9_9feC6gfHPlzbwPH2Sk5QjhFDZLwRmcFhFqFQBKwe9u5Q6ujQqoZAwDFDyyjRqaZQZ85ew-dKG0dWmDZPoRScmyie8hZPukdamX-Ao8OcIk-eNDiemqOcFzdPUliWF8OcFkZABX-WZ8OW4ziWsTdc90jQ4GdaFXZAb0jhNlOYiaikoliWF8OcFkZABX-WZ8OW4ziWsTdc90jQ4GdaFXZAb0jhNlJ6sCjWszH6qJaYGbMg6IJMI7fbRZpyMMeMS6M9GIQWmDZZMgy45zX39.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/AoomsgDn-QFHsLGR1c31MRSS0P_pjAH6R-L7xRoJlYqfeC6gfHPlzbwPH2Sk5QjhFDZLwRmcFhFqFQBKwe9u5Q6ujQqoZAwDFDyyjRqaZQZ85ew-dKG0dWmDZPoRScmyie8hZPukdamX-Ao8OcIk-eNDiemqOcFzdPUliWF8OcFkZABX-WZ8OW4ziWsTdc90jQ4GdaFXZAb0jhNlOYiaikoliWF8OcFkZABX-WZ8OW4ziWsTdc90jQ4GdaFXZAb0jhNlJ6sCjWszH6qJaYGbMg6IJMI7fbRZpyMMeMS6M9GIQWmDZZMg_wkrX39.js" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
@@ -51,8 +44,22 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 .team-social li.icon-team a {
 text-decoration: none;
 }
-.portfolio-box-2 .mask-right, .portfolio-box-2 .mask-left {
-transform-origin: center;}
+.more-center {
+	transform-origin: center;
+    -webkit-transition: all 300ms linear!important;
+    -moz-transition: all 300ms linear!important;
+    -o-transition: all 300ms linear!important;
+    -ms-transition: all 300ms linear!important;
+    transition: all 300ms linear!important;
+}
+.more-center:hover {
+transform-origin: center;
+    -ms-transform: rotate(360deg)!important;
+    -webkit-transform: rotate(360deg)!important;
+    transform: rotate(360deg)!important;
+
+}
+
 a {text-decoration:none!important;}
 .cd-timeline-content .cd-read-more{text-decoration: none;}
 #u2942 {min-height:100px!important; height: auto!important;}
@@ -60,9 +67,7 @@ a {text-decoration:none!important;}
 height:49px;}
 </style>
   <!--HTML Widget code-->
-  
-            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-         
+   
         <style>
             .cd-primary-nav{
                 padding-right:60px;
@@ -601,14 +606,9 @@ button.post-comment:hover{
     
   
   <div class="clearfix" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="ppu19088"><!-- column -->
-    <div class="clearfix colelem" id="pu19088"><!-- group -->
-     <div class="size_fixed grpelem" id="u19088"><!-- custom html -->
-      
-    
-     </div>
-     <div class="size_fixed grpelem" id="u12963"><!-- custom html -->
-      
+   <div class="clearfix grpelem" id="pu12963"><!-- column -->
+    <div class="size_fixed colelem" id="u12963"><!-- custom html -->
+     
             <div style="background-color:#262626; 
                 color:#d1d1d1; 
                 font-size: 16px; 
@@ -617,7 +617,6 @@ button.post-comment:hover{
                 width:220px;
                 height:64px;">Template color settings</div>  
         
-     </div>
     </div>
     <div class="browser_width colelem" id="u15504-bw">
      <div class="size_browser_width" id="u15504"><!-- custom html -->
@@ -625,7 +624,7 @@ button.post-comment:hover{
                     <div class="header-top">
   
             <header class="cd-main-header grey-2-section">
-                <a class="cd-logo animsition-link" href="index.html"><img src="assets/mamo_logo.png" alt="Logo"></a>
+                <a class="cd-logo animsition-link" href="Index.html"><img src="assets/mamo_logo.png" alt="Logo"></a>
 
                 <ul class="cd-header-buttons">
                     <li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
@@ -635,10 +634,10 @@ button.post-comment:hover{
             <nav class="cd-nav">
               <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
                 <li>
-                  <a href="Index.html" class="scroll">Work</a>
+                  <a href="#Home-Portfolio" class="scroll">Work</a>
                 </li>
                 <li>
-                  <a href="about-me.html" class="scroll">About</a>
+                  <a href="about.html" class="scroll">About</a>
                 </li>
                 <li>
                   <a href="resume.html" class="scroll">Résumé</a>
@@ -651,89 +650,19 @@ button.post-comment:hover{
                 
      </div>
     </div>
-    <div class="clearfix colelem" id="u7937-4"><!-- content -->
-     <h1>SLIDER PROJECT</h1>
+    <div class="browser_width colelem" id="u28640-4-bw">
+     <div class="clearfix" id="u28640-4"><!-- content -->
+      <h1>GALLERY PROJECT</h1>
+     </div>
     </div>
-    <div class="clearfix colelem" id="ppu7938"><!-- group -->
-     <div class="clearfix grpelem" id="pu7938"><!-- column -->
-      <div class="size_fixed colelem" id="u7938"><!-- custom html -->
-       
-    
-    
-      </div>
-      <div class="size_fixed colelem" id="u7943"><!-- custom html -->
-       
-    
-    
-      </div>
-      <div class="size_fixed colelem" id="u7948"><!-- custom html -->
-       
-    
-    
-      </div>
-      <div class="size_fixed colelem" id="u7950"><!-- custom html -->
-       
-    
-    
-      </div>
-      <div class="size_fixed colelem" id="u7960"><!-- custom html -->
-       
-    
-    
-      </div>
-      <div class="size_fixed colelem" id="u7962"><!-- custom html -->
-       
-    
-    
-      </div>
-      <div class="size_fixed colelem" id="u7964"><!-- custom html -->
-       
-    
-    
-      </div>
-     </div>
-     <div class="size_fixed grpelem" id="u8007"><!-- custom html -->
-      
-                    
-                    <div id="owl-portfolio-slider" class="owl-carousel owl-theme">
-                        <div id="ImgSl-1" class="item">
-                            <img alt="">
-                            <div class="left-info"></div>
-                        </div>
-                        <div id="ImgSl-2" class="item">
-                            <img alt="">
-                            <div class="left-info"></div>
-                        </div>
-                        <div id="ImgSl-3" class="item">
-                            <img alt="">
-                            <div class="left-info"></div>
-                        </div>
-                        <div id="ImgSl-4" class="item">
-                            <img alt="">
-                            <div class="left-info"></div>
-                        </div>
-                        <div id="ImgSl-5" class="item">
-                            <img alt="">
-                            <div class="left-info"></div>
-                        </div>
-                        <div id="ImgSl-6" class="item">
-                            <img alt="">
-                            <div class="left-info"></div>
-                        </div>
-                        <div id="ImgSl-7" class="item">
-                            <img alt="">
-                            <div class="left-info"></div>
-                        </div>
-                    </div>
-                    
-                
-     </div>
-     <div class="clearfix grpelem" id="pu19023-4"><!-- column -->
-      <div class="clearfix colelem" id="u19023-4"><!-- content -->
+    <div class="clearfix colelem" id="pu28641"><!-- group -->
+     <div class="museBGSize grpelem" id="u28641"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="pu28647-4"><!-- column -->
+      <div class="clearfix colelem" id="u28647-4"><!-- content -->
        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
       </div>
-      <div class="clearfix colelem" id="pu19037"><!-- group -->
-       <div class="size_fixed grpelem" id="u19037"><!-- custom html -->
+      <div class="clearfix colelem" id="pu28654"><!-- group -->
+       <div class="size_fixed grpelem" id="u28654"><!-- custom html -->
         
         <ul class="list-social">
             <li class="icon-soc">
@@ -742,12 +671,12 @@ button.post-comment:hover{
         </ul>
     
        </div>
-       <div class="clearfix grpelem" id="u19024-5"><!-- content -->
-        <p><span id="u19024">CREATED BY:</span> COMPANY NAME</p>
+       <div class="clearfix grpelem" id="u28648-5"><!-- content -->
+        <p><span id="u28648">CREATED BY:</span> COMPANY NAME</p>
        </div>
       </div>
-      <div class="clearfix colelem" id="pu19039"><!-- group -->
-       <div class="size_fixed grpelem" id="u19039"><!-- custom html -->
+      <div class="clearfix colelem" id="pu28655"><!-- group -->
+       <div class="size_fixed grpelem" id="u28655"><!-- custom html -->
         
         <ul class="list-social">
             <li class="icon-soc">
@@ -756,12 +685,12 @@ button.post-comment:hover{
         </ul>
     
        </div>
-       <div class="clearfix grpelem" id="u19025-5"><!-- content -->
-        <p><span id="u19025">COMPLETED:</span> 16TH OCTOBER, 2014.</p>
+       <div class="clearfix grpelem" id="u28649-5"><!-- content -->
+        <p><span id="u28649">COMPLETED:</span> 16TH OCTOBER, 2014.</p>
        </div>
       </div>
-      <div class="clearfix colelem" id="pu19041"><!-- group -->
-       <div class="size_fixed grpelem" id="u19041"><!-- custom html -->
+      <div class="clearfix colelem" id="pu28656"><!-- group -->
+       <div class="size_fixed grpelem" id="u28656"><!-- custom html -->
         
         <ul class="list-social">
             <li class="icon-soc">
@@ -770,19 +699,28 @@ button.post-comment:hover{
         </ul>
     
        </div>
-       <div class="clearfix grpelem" id="u19026-5"><!-- content -->
-        <p><span id="u19026">SKILLS:</span> HTML5 / CSS3 /JS</p>
+       <div class="clearfix grpelem" id="u28650-5"><!-- content -->
+        <p><span id="u28650">SKILLS:</span> HTML5 / CSS3 /JS</p>
        </div>
       </div>
-      <div class="colelem" id="u19028"><!-- simple frame --></div>
-      <div class="clearfix colelem" id="u19027-5"><!-- content -->
-       <p><a class="nonblock" href="http://#"><span id="u19027">COMPANYNAMESITE.COM</span></a></p>
+      <div class="colelem" id="u28652"><!-- simple frame --></div>
+      <div class="clearfix colelem" id="u28651-5"><!-- content -->
+       <p><a class="nonblock" href="http://#"><span id="u28651">COMPANYNAMESITE.COM</span></a></p>
       </div>
-      <div class="colelem" id="u19029"><!-- simple frame --></div>
+      <div class="colelem" id="u28653"><!-- simple frame --></div>
      </div>
     </div>
-    <div class="browser_width colelem" id="u7979-bw">
-     <div class="size_browser_width" id="u7979"><!-- custom html -->
+    <div class="clearfix colelem" id="pu28642"><!-- group -->
+     <div class="museBGSize grpelem" id="u28642"><!-- simple frame --></div>
+     <div class="museBGSize grpelem" id="u28645"><!-- simple frame --></div>
+     <div class="museBGSize grpelem" id="u28646"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="pu28643"><!-- group -->
+     <div class="museBGSize grpelem" id="u28643"><!-- simple frame --></div>
+     <div class="museBGSize grpelem" id="u28644"><!-- simple frame --></div>
+    </div>
+    <div class="browser_width colelem" id="u28639-bw">
+     <div class="size_browser_width" id="u28639"><!-- custom html -->
       
                     <section class="section grey-section section-padding-top-bottom">
                         <div class="container">
@@ -817,8 +755,8 @@ button.post-comment:hover{
                 
      </div>
     </div>
-    <div class="browser_width colelem" id="u7985-bw">
-     <div class="size_browser_width" id="u7985"><!-- custom html -->
+    <div class="browser_width colelem" id="u28638-bw">
+     <div class="size_browser_width" id="u28638"><!-- custom html -->
       
                     <section class="section white-section section-padding-top-bottom">
                     <div class="container">
@@ -839,8 +777,8 @@ button.post-comment:hover{
                 
      </div>
     </div>
-    <div class="browser_width colelem" id="u8010-bw">
-     <div class="size_browser_width" id="u8010"><!-- custom html -->
+    <div class="browser_width colelem" id="u28637-bw">
+     <div class="size_browser_width" id="u28637"><!-- custom html -->
       
                     <section class="section grey-section section-padding-top-bottom">
         
@@ -859,7 +797,7 @@ button.post-comment:hover{
      </div>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="1381" data-content-above-spacer="1380" data-content-below-spacer="198"></div>
+   <div class="verticalspacer" data-offset-top="1862" data-content-above-spacer="1862" data-content-below-spacer="197"></div>
    <div class="clearfix grpelem" id="pu100"><!-- group -->
     <div class="browser_width grpelem" id="u100-bw">
      <div id="u100"><!-- simple frame --></div>
@@ -915,7 +853,7 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.detectScreenResolution();/* HiDPI screens */
@@ -934,80 +872,6 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
   
   <!--HTML Widget code-->
   
-            <script type="text/javascript" src="assets/01_modernizr.custom.js"></script>
-            <script type="text/javascript" src="assets/02_jquery.mobile.custom.min.js"></script>
-            <script type="text/javascript" src="assets/03_retina-1.1.0.min.js"></script>
-            <script type="text/javascript">
-                $('body').addClass('animsition');
-            </script>
-            <script type="text/javascript" src="assets/04_jquery.animsition.min.js"></script>
-            <script type="text/javascript">
-
-                                $(document).ready(function() {
-                                  
-                                  $(".animsition").animsition({
-                                  
-                                    inClass               :   'zoom-in-sm',
-                                    outClass              :   'zoom-out-sm',
-                                    inDuration            :    1500,
-                                    outDuration           :    800,
-                                    linkElement           :   '.animsition-link', 
-                                    // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
-                                    loading               :    true,
-                                    loadingParentElement  :   'body', //animsition wrapper element
-                                    loadingClass          :   'animsition-loading',
-                                    unSupportCss          : [ 'animation-duration',
-                                                              '-webkit-animation-duration',
-                                                              '-o-animation-duration'
-                                                            ],
-                                    //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser. 
-                                    //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-                                    
-                                    overlay               :   false,
-                                    
-                                    overlayClass          :   'animsition-overlay-slide',
-                                    overlayParentElement  :   'body'
-                                  });
-                                });  
-
-            </script>
-            <script type="text/javascript" src="assets/05_jquery.easing.js"></script>
-            <script type="text/javascript" src="assets/19_jquery.hidescroll.min.js"></script>
-            <script type="text/javascript">
-                $('.header-top').hidescroll();
-            </script>
-            <script type="text/javascript" src="assets/06_smoothscroll.js"></script>
-            <script type="text/javascript" src="assets/14_jquery.counterup.min.js"></script>
-            <script type="text/javascript" src="assets/15_waypoints.min.js"></script>
-            <script type="text/javascript" src="assets/17_scrollreveal.js"></script>
-            <script type="text/javascript">
-                (function($) { "use strict";
-                      window.scrollReveal = new scrollReveal();
-                })(jQuery);
-            </script>
-            <script type="text/javascript" src="assets/13_owl.carousel.min.js"></script>
-            <script type="text/javascript"> 
-        
-                            jQuery(document).ready(function() {
-                                var offset = 450;
-                                var duration = 500;
-                                jQuery(window).scroll(function() {
-                                    if (jQuery(this).scrollTop() > offset) {
-                                        jQuery('.scroll-to-top').fadeIn(duration);
-                                    } else {
-                                        jQuery('.scroll-to-top').fadeOut(duration);
-                                    }
-                                });
-                                
-                                jQuery('.scroll-to-top').click(function(event) {
-                                    event.preventDefault();
-                                    jQuery('html, body').animate({scrollTop: 0}, duration);
-                                    return false;
-                                })
-                            });
-
-            </script>
-        
                 <script>
                     $( "body" ).wrapInner( '<main class="cd-main-content"></main>' );
                     $( "body" ).append( '<nav class="cd-nav"></nav> );
@@ -1155,55 +1019,6 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
                         })(jQuery); 
                 </script>
             
-                <script>
-                    $( "#ImgSl-1 img" ).attr( "src", "assets/17.jpg");
-                    $( "#ImgSl-1 .left-info" ).text( "Unlimited Options");
-                </script>
-                
-                <script>
-                    $( "#ImgSl-2 img" ).attr( "src", "assets/25.jpg");
-                    $( "#ImgSl-2 .left-info" ).text( "Desctop, tablet, mobile");
-                </script>
-                
-                <script>
-                    $( "#ImgSl-3 img" ).attr( "src", "assets/34.jpg");
-                    $( "#ImgSl-3 .left-info" ).text( "THIRD CAPTION");
-                </script>
-                
-                <script>
-                    $( "#ImgSl-4 img" ).attr( "src", "assets/42.jpg");
-                    $( "#ImgSl-4 .left-info" ).text( "awesome portfolios");
-                </script>
-                
-                <script>
-                    $( "#ImgSl-5 img" ).attr( "src", "assets/52.jpg");
-                    $( "#ImgSl-5 .left-info" ).text( "parallax effects");
-                </script>
-                
-                <script>
-                    $( "#ImgSl-6 img" ).attr( "src", "assets/62.jpg");
-                    $( "#ImgSl-6 .left-info" ).text( "endless possibilities");
-                </script>
-                
-                <script>
-                    $( "#ImgSl-7 img" ).attr( "src", "assets/72.jpg");
-                    $( "#ImgSl-7 .left-info" ).text( "fully customizable");
-                </script>
-                
-            <script>
-                $("#owl-portfolio-slider").owlCarousel({
-                                     
-                    navigation: false, 
-                    slideSpeed : 300,
-                    autoPlay : 5000,
-                    singleItem:true
-                                 
-                });
-            </script>
-            <script>
-                $( "#u8007" ).addClass( "actAsDiv");
-            </script>
-        
             <script>
                 $('.counter').counterUp({
                     delay: 100,
@@ -1211,7 +1026,7 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
                 });
             </script>
             <script>
-                $( "#u7979" ).addClass( "actAsDiv");
+                $( "#u28639" ).addClass( "actAsDiv");
             </script>
         
         <script type="text/javascript">
@@ -1237,7 +1052,7 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
           </script>
       
             <script>
-                $( "#u8010" ).addClass( "actAsDiv");
+                $( "#u28637" ).addClass( "actAsDiv");
             </script>
         
    </body>

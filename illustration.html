@@ -10,21 +10,26 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "parallax-project.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "jquery.musepolyfill.bgsize.js", "illustration.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=166967310"/>
-  <title>PARALLAX PROJECT</title>
+  <title>Illustration</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=102659113"/>
-  <link rel="stylesheet" type="text/css" href="css/master_simple-menu.css?crc=169739645"/>
-  <link rel="stylesheet" type="text/css" href="css/parallax-project.css?crc=4199597741" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_simple-menu.css?crc=3772325562"/>
+  <link rel="stylesheet" type="text/css" href="css/illustration.css?crc=3799698081" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
   <script src="https://webfonts.creativecloud.com/lato:n4:all;montserrat:n4:all.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/w_M6P449ZBqSW8oZYz4e_6rJiEBw7VxKBop28NO5h83feC6gfHPlzbwPH2Sk5QjhFDZLwRmcFhFqFQBKwe9u5Q6ujQqoZAwDFDyyjRqaZQZ85ew-dKG0dWmDZPoRScmyie8hZPukdamX-Ao8OcIk-eNDiemqOcFzdPUliWF8OcFkZABX-WZ8OW4ziWsTdc90jQ4GdaFXZAb0jhNlOYiaikoliWF8OcFkZABX-WZ8OW4ziWsTdc90jQ4GdaFXZAb0jhNlJ6sCjWszH6qJaYGbMg6IJMI7fbRZpyMMeMS6M9GIQWmDZZMgvwkrX39.js" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   try {Typekit.load();} catch(e) {}
+</script>
     <!--custom head HTML-->
   <link rel="stylesheet" href="assets/base.css"/>
 <link rel="stylesheet" href="assets/skeleton.css"/>
@@ -62,120 +67,13 @@ a {text-decoration:none!important;}
 height:49px;}
 </style>
   <!--HTML Widget code-->
-  
-            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        
-            <style>
-                .parallax-prj-5 {
-                    background: url('assets/53.jpg') repeat fixed;
-                    background-size: cover;
-                    position: absolute;
-                    top: 0; 
-                    left: 0; 
-                    right: 0;
-                    bottom: 0;
-                    z-index: -1;
-                    width:100%;  
-                }
-                @media only screen and (min-width: 1930px) { .parallax-prj-5 { background-size: cover; } }
-                 @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
-                    .parallax-1 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
-                }
-                @media only screen and (max-width: 1400px) {
-                    .parallax-prj-5 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
-                }
-            </style>
-         
+   
         <style>
             .cd-primary-nav{
                 padding-right:60px;
             }
         </style>
     
-            <style>
-                .parallax-prj-1 {
-                    background: url('assets/26.jpg') repeat fixed;
-                    background-size: cover;
-                    position: absolute;
-                    top: 0; 
-                    left: 0; 
-                    right: 0;
-                    bottom: 0;
-                    z-index: -1;
-                    width:100%;  
-                }
-                @media only screen and (min-width: 1930px) { .parallax-prj-1 { background-size: cover; } }
-                 @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
-                    .parallax-1 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
-                }
-                @media only screen and (max-width: 1400px) {
-                    .parallax-prj-1 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
-                }
-            </style>
-        
-            <style>
-                .parallax-prj-2 {
-                    background: url('assets/43.jpg') repeat fixed;
-                    background-size: cover;
-                    position: absolute;
-                    top: 0; 
-                    left: 0; 
-                    right: 0;
-                    bottom: 0;
-                    z-index: -1;
-                    width:100%;  
-                }
-                @media only screen and (min-width: 1930px) { .parallax-prj-2 { background-size: cover; } }
-                 @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
-                    .parallax-1 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
-                }
-                @media only screen and (max-width: 1400px) {
-                    .parallax-prj-2 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
-                }
-            </style>
-        
-            <style>
-                .parallax-prj-3 {
-                    background: url('assets/73.jpg') repeat fixed;
-                    background-size: cover;
-                    position: absolute;
-                    top: 0; 
-                    left: 0; 
-                    right: 0;
-                    bottom: 0;
-                    z-index: -1;
-                    width:100%;  
-                }
-                @media only screen and (min-width: 1930px) { .parallax-prj-3 { background-size: cover; } }
-                 @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
-                    .parallax-1 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
-                }
-                @media only screen and (max-width: 1400px) {
-                    .parallax-prj-3 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
-                }
-            </style>
-        
-            <style>
-                .parallax-prj-4 {
-                    background: url('assets/110.jpg') repeat fixed;
-                    background-size: cover;
-                    position: absolute;
-                    top: 0; 
-                    left: 0; 
-                    right: 0;
-                    bottom: 0;
-                    z-index: -1;
-                    width:100%;  
-                }
-                @media only screen and (min-width: 1930px) { .parallax-prj-4 { background-size: cover; } }
-                 @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
-                    .parallax-1 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
-                }
-                @media only screen and (max-width: 1400px) {
-                    .parallax-prj-4 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
-                }
-            </style>
-        
 			<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 			<style>
 				.fa-block:before, .fa-block {
@@ -708,14 +606,9 @@ button.post-comment:hover{
     
   
   <div class="clearfix" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="ppu19757"><!-- column -->
-    <div class="clearfix colelem" id="pu19757"><!-- group -->
-     <div class="size_fixed grpelem" id="u19757"><!-- custom html -->
-      
-    
-     </div>
-     <div class="size_fixed grpelem" id="u12963"><!-- custom html -->
-      
+   <div class="clearfix grpelem" id="pu12963"><!-- column -->
+    <div class="size_fixed colelem" id="u12963"><!-- custom html -->
+     
             <div style="background-color:#262626; 
                 color:#d1d1d1; 
                 font-size: 16px; 
@@ -724,32 +617,14 @@ button.post-comment:hover{
                 width:220px;
                 height:64px;">Template color settings</div>  
         
-     </div>
     </div>
-    <div class="clearfix colelem" id="pu8367"><!-- group -->
-     <div class="browser_width grpelem" id="u8367-bw">
-      <div class="size_browser_width" id="u8367"><!-- custom html -->
-       
-            <section class="home section parallax-section">
-        
-                <a href="#scroll-link" class="arrow-down scroll">&#xf103;</a>
-            
-                <div class="parallax-prj-5"></div>
-            
-                <div class="fullscreen-title-home">this is <span>parallax</span> project</div>
-                <div class="fullscreen-subtitle-home">We Love What We Do</div>
-                            
-            </section>  
-        
-      </div>
-     </div>
-     <div class="browser_width grpelem" id="u15504-bw">
-      <div class="size_browser_width" id="u15504"><!-- custom html -->
-       
+    <div class="browser_width colelem" id="u15504-bw">
+     <div class="size_browser_width" id="u15504"><!-- custom html -->
+      
                     <div class="header-top">
   
             <header class="cd-main-header grey-2-section">
-                <a class="cd-logo animsition-link" href="index.html"><img src="assets/mamo_logo.png" alt="Logo"></a>
+                <a class="cd-logo animsition-link" href="Index.html"><img src="assets/mamo_logo.png" alt="Logo"></a>
 
                 <ul class="cd-header-buttons">
                     <li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
@@ -759,10 +634,10 @@ button.post-comment:hover{
             <nav class="cd-nav">
               <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
                 <li>
-                  <a href="Index.html" class="scroll">Work</a>
+                  <a href="#Home-Portfolio" class="scroll">Work</a>
                 </li>
                 <li>
-                  <a href="about-me.html" class="scroll">About</a>
+                  <a href="about.html" class="scroll">About</a>
                 </li>
                 <li>
                   <a href="resume.html" class="scroll">Résumé</a>
@@ -773,103 +648,115 @@ button.post-comment:hover{
                     <main class="cd-main-content"></main>
 
                 
+     </div>
+    </div>
+    <div class="browser_width colelem" id="u28859-4-bw">
+     <div class="clearfix" id="u28859-4"><!-- content -->
+      <h1>GALLERY PROJECT</h1>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu28860"><!-- group -->
+     <div class="museBGSize grpelem" id="u28860"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="pu28866-4"><!-- column -->
+      <div class="clearfix colelem" id="u28866-4"><!-- content -->
+       <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
       </div>
+      <div class="clearfix colelem" id="pu28873"><!-- group -->
+       <div class="size_fixed grpelem" id="u28873"><!-- custom html -->
+        
+        <ul class="list-social">
+            <li class="icon-soc">
+                <a href="#">&#xf1d9;</a>
+            </li>
+        </ul>
+    
+       </div>
+       <div class="clearfix grpelem" id="u28867-5"><!-- content -->
+        <p><span id="u28867">CREATED BY:</span> COMPANY NAME</p>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu28874"><!-- group -->
+       <div class="size_fixed grpelem" id="u28874"><!-- custom html -->
+        
+        <ul class="list-social">
+            <li class="icon-soc">
+                <a href="#">&#xf017;</a>
+            </li>
+        </ul>
+    
+       </div>
+       <div class="clearfix grpelem" id="u28868-5"><!-- content -->
+        <p><span id="u28868">COMPLETED:</span> 16TH OCTOBER, 2014.</p>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu28875"><!-- group -->
+       <div class="size_fixed grpelem" id="u28875"><!-- custom html -->
+        
+        <ul class="list-social">
+            <li class="icon-soc">
+                <a href="#">&#xf121</a>
+            </li>
+        </ul>
+    
+       </div>
+       <div class="clearfix grpelem" id="u28869-5"><!-- content -->
+        <p><span id="u28869">SKILLS:</span> HTML5 / CSS3 /JS</p>
+       </div>
+      </div>
+      <div class="colelem" id="u28871"><!-- simple frame --></div>
+      <div class="clearfix colelem" id="u28870-5"><!-- content -->
+       <p><a class="nonblock" href="http://#"><span id="u28870">COMPANYNAMESITE.COM</span></a></p>
+      </div>
+      <div class="colelem" id="u28872"><!-- simple frame --></div>
      </div>
     </div>
-    <div class="browser_width colelem" id="u8351-bw">
-     <div class="size_browser_width" id="u8351"><!-- custom html -->
+    <div class="clearfix colelem" id="pu28861"><!-- group -->
+     <div class="museBGSize grpelem" id="u28861"><!-- simple frame --></div>
+     <div class="museBGSize grpelem" id="u28864"><!-- simple frame --></div>
+     <div class="museBGSize grpelem" id="u28865"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="pu28862"><!-- group -->
+     <div class="museBGSize grpelem" id="u28862"><!-- simple frame --></div>
+     <div class="museBGSize grpelem" id="u28863"><!-- simple frame --></div>
+    </div>
+    <div class="browser_width colelem" id="u28858-bw">
+     <div class="size_browser_width" id="u28858"><!-- custom html -->
       
-            <section class="section parallax-section parallax-section-padding-top-bottom-folio" id="scroll-link">
-        
-            <div class="parallax-prj-1"></div>
-            
-            <div class="container">
-                <div class="sixteen columns">
-                    <div class="section-title">
-                        <h2>CREATIVE LAMP</h2>
-                        <div class="subtitle big">WE ARE Clymene CREATIVE AGENCY.</div>
-                    </div>
-                </div>
-                <div class="sixteen columns">
-                    <div class="more-center big-image" data-image="assets/26.jpg" data-title="CREATIVE LAMP - GREAT PROJECT"></div>
-                </div>
-            </div>  
-            
-        </section>
-        
+                    <section class="section grey-section section-padding-top-bottom">
+                        <div class="container">
+                            <div class="container">
+                                <div class="four columns">
+                                    <div class="facts-box-2">
+                                        <h6>FINISHED PROJECTS</h6> 
+                                        <div class="facts-box-2-num"><span class="counter">82</span><div class="line"></div></div>
+                                    </div>
+                                </div>
+                                <div class="four columns">
+                                    <div class="facts-box-2">
+                                        <h6>LINES OF CODE</h6> 
+                                        <div class="facts-box-2-num"><span class="counter">8723</span><div class="line"></div></div>
+                                    </div>
+                                </div>
+                                <div class="four columns">
+                                    <div class="facts-box-2">
+                                        <h6>CUPS OF COFFEE</h6> 
+                                        <div class="facts-box-2-num"><span class="counter">513</span><div class="line"></div></div>
+                                    </div>
+                                </div>
+                                <div class="four columns">
+                                    <div class="facts-box-2">
+                                        <h6>CUSTOM COUNTERS</h6> 
+                                        <div class="facts-box-2-num"><span class="counter">3419</span><div class="line"></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                
      </div>
     </div>
-    <div class="browser_width colelem" id="u8355-bw">
-     <div class="size_browser_width" id="u8355"><!-- custom html -->
-      
-            <section class="section parallax-section parallax-section-padding-top-bottom-folio" id="scroll-link">
-        
-            <div class="parallax-prj-2"></div>
-            
-            <div class="container">
-                <div class="sixteen columns">
-                    <div class="section-title">
-                        <h2>BUSYNESS CENTER</h2>
-                        <div class="subtitle big">THE PLACE DREAMS COMES TRUE</div>
-                    </div>
-                </div>
-                <div class="sixteen columns">
-                    <div class="more-center big-image" data-image="assets/43.jpg" data-title="BUSYNESS CENTER - The place we create our templates"></div>
-                </div>
-            </div>  
-            
-        </section>
-        
-     </div>
-    </div>
-    <div class="browser_width colelem" id="u8359-bw">
-     <div class="size_browser_width" id="u8359"><!-- custom html -->
-      
-            <section class="section parallax-section parallax-section-padding-top-bottom-folio" id="scroll-link">
-        
-            <div class="parallax-prj-3"></div>
-            
-            <div class="container">
-                <div class="sixteen columns">
-                    <div class="section-title">
-                        <h2>CREATIVE PICTURES</h2>
-                        <div class="subtitle big">imagination comes into play</div>
-                    </div>
-                </div>
-                <div class="sixteen columns">
-                    <div class="more-center big-image" data-image="assets/73.jpg" data-title="CREATIVE PICTURES - GOOD START"></div>
-                </div>
-            </div>  
-            
-        </section>
-        
-     </div>
-    </div>
-    <div class="browser_width colelem" id="u8361-bw">
-     <div class="size_browser_width" id="u8361"><!-- custom html -->
-      
-            <section class="section parallax-section parallax-section-padding-top-bottom-folio" id="scroll-link">
-        
-            <div class="parallax-prj-4"></div>
-            
-            <div class="container">
-                <div class="sixteen columns">
-                    <div class="section-title">
-                        <h2>BUSYNESS CENTER</h2>
-                        <div class="subtitle big">THE PLACE DREAMS COMES TRUE</div>
-                    </div>
-                </div>
-                <div class="sixteen columns">
-                    <div class="more-center big-image" data-image="assets/110.jpg" data-title="BUSYNESS CENTER - The place we create our templates"></div>
-                </div>
-            </div>  
-            
-        </section>
-        
-     </div>
-    </div>
-    <div class="browser_width colelem" id="u8212-bw">
-     <div class="size_browser_width" id="u8212"><!-- custom html -->
+    <div class="browser_width colelem" id="u28857-bw">
+     <div class="size_browser_width" id="u28857"><!-- custom html -->
       
                     <section class="section white-section section-padding-top-bottom">
                     <div class="container">
@@ -890,8 +777,8 @@ button.post-comment:hover{
                 
      </div>
     </div>
-    <div class="browser_width colelem" id="u8215-bw">
-     <div class="size_browser_width" id="u8215"><!-- custom html -->
+    <div class="browser_width colelem" id="u28856-bw">
+     <div class="size_browser_width" id="u28856"><!-- custom html -->
       
                     <section class="section grey-section section-padding-top-bottom">
         
@@ -910,7 +797,7 @@ button.post-comment:hover{
      </div>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="3121" data-content-above-spacer="3120" data-content-below-spacer="197"></div>
+   <div class="verticalspacer" data-offset-top="1862" data-content-above-spacer="1862" data-content-below-spacer="197"></div>
    <div class="clearfix grpelem" id="pu100"><!-- group -->
     <div class="browser_width grpelem" id="u100-bw">
      <div id="u100"><!-- simple frame --></div>
@@ -966,7 +853,7 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.detectScreenResolution();/* HiDPI screens */
@@ -985,97 +872,6 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
   
   <!--HTML Widget code-->
   
-            <script type="text/javascript" src="assets/01_modernizr.custom.js"></script>
-            <script type="text/javascript" src="assets/02_jquery.mobile.custom.min.js"></script>
-            <script type="text/javascript" src="assets/03_retina-1.1.0.min.js"></script>
-            <script type="text/javascript">
-                $('body').addClass('animsition');
-            </script>
-            <script type="text/javascript" src="assets/04_jquery.animsition.min.js"></script>
-            <script type="text/javascript">
-
-                                $(document).ready(function() {
-                                  
-                                  $(".animsition").animsition({
-                                  
-                                    inClass               :   'zoom-in-sm',
-                                    outClass              :   'zoom-out-sm',
-                                    inDuration            :    1500,
-                                    outDuration           :    800,
-                                    linkElement           :   '.animsition-link', 
-                                    // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
-                                    loading               :    true,
-                                    loadingParentElement  :   'body', //animsition wrapper element
-                                    loadingClass          :   'animsition-loading',
-                                    unSupportCss          : [ 'animation-duration',
-                                                              '-webkit-animation-duration',
-                                                              '-o-animation-duration'
-                                                            ],
-                                    //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser. 
-                                    //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-                                    
-                                    overlay               :   false,
-                                    
-                                    overlayClass          :   'animsition-overlay-slide',
-                                    overlayParentElement  :   'body'
-                                  });
-                                });  
-
-            </script>
-            <script type="text/javascript" src="assets/05_jquery.easing.js"></script>
-            <script type="text/javascript" src="assets/19_jquery.hidescroll.min.js"></script>
-            <script type="text/javascript">
-                $('.header-top').hidescroll();
-            </script>
-            <script type="text/javascript" src="assets/06_smoothscroll.js"></script>
-            <script type="text/javascript" src="assets/14_jquery.counterup.min.js"></script>
-            <script type="text/javascript" src="assets/15_waypoints.min.js"></script>
-            <script type="text/javascript" src="assets/17_scrollreveal.js"></script>
-            <script type="text/javascript">
-                (function($) { "use strict";
-                      window.scrollReveal = new scrollReveal();
-                })(jQuery);
-            </script>
-            <script type="text/javascript" src="assets/09_jquery.parallax-1.1.3.js"></script>
-            <script type="text/javascript" src="assets/20_jquery.colorbox.js"></script>
-            <script type="text/javascript" src="assets/13_owl.carousel.min.js"></script>
-            <script type="text/javascript"> 
-        
-                            jQuery(document).ready(function() {
-                                var offset = 450;
-                                var duration = 500;
-                                jQuery(window).scroll(function() {
-                                    if (jQuery(this).scrollTop() > offset) {
-                                        jQuery('.scroll-to-top').fadeIn(duration);
-                                    } else {
-                                        jQuery('.scroll-to-top').fadeOut(duration);
-                                    }
-                                });
-                                
-                                jQuery('.scroll-to-top').click(function(event) {
-                                    event.preventDefault();
-                                    jQuery('html, body').animate({scrollTop: 0}, duration);
-                                    return false;
-                                })
-                            });
-
-            </script>
-            <script type="text/javascript" src="assets/21_intense.min.js"></script>
-            <script type="text/javascript">
-                (function($) { "use strict";  
-                    var elements = document.querySelectorAll( '.big-image' );
-                    Intense( elements );
-                })(jQuery);
-            </script>
-            <script type="text/javascript" src="assets/18_jquery.fitvids.js"></script>
-            
-        
-            <script>
-                $( "#u8367" ).addClass( "actAsDiv");
-                $('.parallax-prj-5').parallax("50%", 0.4);
-
-            </script>
-        
                 <script>
                     $( "body" ).wrapInner( '<main class="cd-main-content"></main>' );
                     $( "body" ).append( '<nav class="cd-nav"></nav> );
@@ -1224,27 +1020,13 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
                 </script>
             
             <script>
-                $( "#u8351" ).addClass( "actAsDiv");
-                $('.parallax-prj-1').parallax("50%", 0.4);
-
+                $('.counter').counterUp({
+                    delay: 100,
+                    time: 2000
+                });
             </script>
-        
             <script>
-                $( "#u8355" ).addClass( "actAsDiv");
-                $('.parallax-prj-2').parallax("50%", 0.4);
-
-            </script>
-        
-            <script>
-                $( "#u8359" ).addClass( "actAsDiv");
-                $('.parallax-prj-3').parallax("50%", 0.4);
-
-            </script>
-        
-            <script>
-                $( "#u8361" ).addClass( "actAsDiv");
-                $('.parallax-prj-4').parallax("50%", 0.4);
-
+                $( "#u28858" ).addClass( "actAsDiv");
             </script>
         
         <script type="text/javascript">
@@ -1270,7 +1052,7 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
           </script>
       
             <script>
-                $( "#u8215" ).addClass( "actAsDiv");
+                $( "#u28856" ).addClass( "actAsDiv");
             </script>
         
    </body>
