@@ -13,13 +13,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/video.html</loc>
-    <lastmod>2018-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/resume.html</loc>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/photography.html</loc>
     <lastmod>2018-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -31,7 +25,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/photography.html</loc>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/resume.html</loc>
     <lastmod>2018-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -149,6 +143,12 @@
     <image:image>
       <image:loc>http://muse.creative-routine.a2hosted.com/clymene/images/mamo_logo_white_2x.png</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/3.jpg</loc>
+    <lastmod>2016-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/color-gold.css</loc>
@@ -325,8 +325,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/revicons.svg</loc>
-    <lastmod>2014-09-21</lastmod>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/4.png</loc>
+    <lastmod>2016-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -337,8 +337,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/3.jpg</loc>
-    <lastmod>2016-01-07</lastmod>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/revicons.woff</loc>
+    <lastmod>2014-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -529,12 +529,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/4.png</loc>
-    <lastmod>2016-01-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/3.png</loc>
     <lastmod>2016-01-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -583,6 +577,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/revicons.svg</loc>
+    <lastmod>2014-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/colorbox.css</loc>
     <lastmod>2014-11-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -590,12 +590,6 @@
   </url>
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/revicons.ttf</loc>
-    <lastmod>2014-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/revicons.woff</loc>
     <lastmod>2014-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
