@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="muse.creative-routine.a2hosted.com/clymene" resolutions="1x,2x" timestamp="1517266546519">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="muse.creative-routine.a2hosted.com/clymene" resolutions="1x,2x" timestamp="1517287794709">
   <folder name="css">
-    <file name="site_global.css" crc="102659113"/>
-    <file name="master_simple-menu.css" crc="3772325562" ref="index:resume:sustainability:power:hyundai:photography:5friends:logo:transportation:about:illustration:nissan"/>
-    <file name="index.css" crc="248249517" ref="index"/>
-    <file name="resume.css" crc="3993971895" ref="resume"/>
+    <file name="site_global.css" crc="531314014"/>
+    <file name="master_simple-menu.css" crc="3825402800" ref="index:resume:sustainability:power:hyundai:photography:5friends:logo:transportation:about:illustration:nissan"/>
+    <file name="index.css" crc="3806574593" ref="index"/>
+    <file name="resume.css" crc="481436469" ref="resume"/>
     <file name="sustainability.css" crc="4240362982" ref="sustainability"/>
     <file name="power.css" crc="331420642" ref="power"/>
     <file name="hyundai.css" crc="4097089595" ref="hyundai"/>
@@ -11,13 +11,14 @@
     <file name="5friends.css" crc="3850916942" ref="5friends"/>
     <file name="logo.css" crc="3846328339" ref="logo"/>
     <file name="transportation.css" crc="38888379" ref="transportation"/>
-    <file name="about.css" crc="403409370" ref="about"/>
+    <file name="about.css" crc="3937830488" ref="about"/>
     <file name="illustration.css" crc="3799698081" ref="illustration"/>
     <file name="nissan.css" crc="3891264356" ref="nissan"/>
+    <file name="video.css" crc="4104425464" ref="video"/>
   </folder>
   <folder name="assets">
     <file name="colorbox.css" crc="4170973745" seo="true" mt="1416133372000"/>
-    <file name="skeleton.css" crc="3974099801" seo="true" mt="1402953190000"/>
+    <file name="skeleton.css" crc="3833336649" seo="true" mt="1517287748000"/>
     <file name="acc2.png" crc="3767736807" seo="true" mt="1412540864000"/>
     <file name="acc3.png" crc="281230508" seo="true" mt="1412540824000"/>
     <file name="work5.jpg" crc="14086332" seo="true" mt="1452232738000"/>
@@ -146,7 +147,7 @@
     <file name="line-icon-10.png" crc="416087840" seo="true" mt="1415776860000"/>
     <file name="line-icon-11.png" crc="4095522642" seo="true" mt="1415776896000"/>
     <file name="line-icon-12.png" crc="99908289" seo="true" mt="1415776920000"/>
-    <file name="layout.css" crc="89325384" seo="true" mt="1451674970000"/>
+    <file name="layout.css" crc="89325384" seo="true" mt="1517283560000"/>
     <file name="visible.min.js" crc="384839363" seo="true" mt="1397175980000"/>
     <file name="pro-bars.js" crc="4130760242" seo="true" mt="1397175980000"/>
     <file name="about.jpg" crc="3933311707" seo="true" mt="1452232354000"/>
@@ -178,7 +179,7 @@
     <file name="iphone.png" crc="4277954204" seo="true" mt="1452234008000"/>
     <file name="blog-2.jpg" crc="67932054" seo="true" mt="1452232376000"/>
     <file name="shop1.jpg" crc="430378747" seo="true" mt="1452233924000"/>
-    <file name="base.css" crc="432870562" seo="true" mt="1517265228000"/>
+    <file name="base.css" crc="298443233" seo="true" mt="1517279558000"/>
     <file name="01_modernizr.custom.js" crc="4045683210" seo="true" mt="1414797522000"/>
     <file name="animsition.min.css" crc="434866282" seo="true" mt="1416385390000"/>
     <file name="revicons.eot" crc="4084261605" seo="true" mt="1411332042000"/>
@@ -189,20 +190,21 @@
     <file name="seattle-13.jpg" crc="4068914290" seo="true" mt="1516568129000"/>
     <file name="metro-2942353_1920.jpg" crc="466021815" seo="true" mt="1510708810000"/>
     <file name="town-2430571_1280.jpg" crc="114246280" seo="true" mt="1510711801000"/>
+    <file name="sustatosu_small.mp4" crc="3962803747" seo="true" mt="1516902979000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry:index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
-    <file name="museutils.js" crc="3803043152" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry:index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
-    <file name="whatinput.js" crc="86476730" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry:index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
-    <file name="museconfig.js" crc="4153641093" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry:index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
-    <file name="jquery.watch.js" crc="99325471" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry:index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="phone>home---one-page:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-blog-1:phone>home-blog-2:phone>about-me:phone>gallery-project:tablet>home---one-page:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>index:tablet>home-blog-1:tablet>home-blog-2:tablet>about-me:hyundai:transportation:nissan:sustainability:index:about:5friends:power:logo:illustration:photography:resume"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry:index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume:video"/>
+    <file name="museutils.js" crc="3803043152" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry:index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume:video"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry:index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume:video"/>
+    <file name="museconfig.js" crc="4153641093" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry:index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume:video"/>
+    <file name="jquery.watch.js" crc="99325471" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry:index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume:video"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="phone>home---one-page:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-blog-1:phone>home-blog-2:phone>about-me:phone>gallery-project:tablet>home---one-page:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>index:tablet>home-blog-1:tablet>home-blog-2:tablet>about-me:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
     <file name="webpro.js" crc="242022427" ref="phone>home---one-page:phone>home---3d-menu:phone>contact:tablet>home---one-page:tablet>contact:tablet>home---3d-menu"/>
     <file name="form_check.php" crc="147359589" ref="phone>home---one-page"/>
     <file name="form_throttle.php" crc="93986428" ref="phone>home---one-page"/>
     <file name="form_process.php" crc="3851993751" ref="phone>home---one-page"/>
     <file name="form-u6708.php" crc="3889611478" ref="phone>home---one-page"/>
-    <file name="require.js" crc="4157109226" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry:index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
+    <file name="require.js" crc="4157109226" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry:index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume:video"/>
     <file name="form-u10934.php" crc="221271369" ref="phone>home---3d-menu"/>
     <file name="jquery.scrolleffects.js" crc="530399994" ref="phone>home-blog-1:phone>home-blog-2:phone>about-me:tablet>home-blog-1:tablet>home-blog-2:tablet>about-me:about:resume"/>
     <file name="form-u18749.php" crc="527446097" ref="phone>contact"/>
@@ -211,12 +213,13 @@
     <file name="form-u10619.php" crc="478666054" ref="tablet>home---3d-menu"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="166967310" ref="phone>home---one-page:phone>about"/>
+    <file name="favicon.ico" crc="4111325400" ref="phone>home---one-page:phone>about:hyundai"/>
     <file name="3-u6580-fr.jpg" crc="195957660" ref="phone>home---one-page:phone>home---3d-menu"/>
     <file name="3-u6580-fr_2x.jpg" crc="4188203026" ref="phone>home---one-page:phone>home---3d-menu"/>
     <file name="6.jpg" crc="4031214296" ref="phone>home---one-page:phone>home---3d-menu:phone>home-blog-1:phone>home-blog-2:tablet>home---one-page:tablet>home---3d-menu:tablet>home-blog-1:tablet>home-blog-2:phone>gallery-project:hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
-      <caption webpage="home---one-page" alt=""/>
+      <caption webpage="hyundai" alt=""/>
       <caption webpage="gallery-project" alt=""/>
+      <caption webpage="home---one-page" alt=""/>
     </file>
     <file name="logo-footer.png" crc="372781148" seo="true" ref="phone>home---one-page:phone>home-portfolio-1:phone>home---3d-menu:phone>home-corporate-1:phone>index:phone>home-corporate-2:phone>home-portfolio-2:phone>home-blog-1:phone>home-blog-2:phone>home-shop-1:phone>home-shop-2:phone>about:phone>about-2:phone>about-me:phone>office:phone>team:phone>services-1:phone>services-2:phone>portfolio:phone>slider-project:phone>vimeo-project:phone>gallery-project:phone>contact:phone>shop-item:phone>blog-masonry:tablet>home---one-page:tablet>portfolio-4-columns:tablet>slider-project:tablet>contact:tablet>portfolio-masonry:tablet>portfolio-3-columns:tablet>portfolio-2-columns:tablet>portfolio-masonry-4:tablet>vimeo-project:tablet>gallery-project:tablet>home---3d-menu:tablet>home-corporate-1:tablet>home-portfolio-1:tablet>home-corporate-2:tablet>index:tablet>home-portfolio-2:tablet>home-blog-1:tablet>home-blog-2:tablet>about:tablet>about-2:tablet>about-me:tablet>office:tablet>services-1:tablet>home-shop-1:tablet>home-shop-2:tablet>team:tablet>services-2:tablet>portfolio-masonry-3:tablet>portfolio-masonry-2:tablet>shop-item:tablet>blog-masonry">
       <caption webpage="home-shop-1" alt=""/>
@@ -335,31 +338,37 @@
       <caption webpage="home-blog-1" alt=""/>
     </file>
     <file name="3.jpg" crc="4184575898" ref="phone>home-corporate-1:tablet>home-corporate-1:tablet>gallery-project:hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
-      <caption webpage="gallery-project" alt=""/>
       <caption webpage="home-corporate-1" alt=""/>
+      <caption webpage="hyundai" alt=""/>
+      <caption webpage="gallery-project" alt=""/>
     </file>
     <file name="iphone.png" crc="4277954204" ref="phone>index:tablet>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="about-me.jpg" crc="3829364038" ref="phone>about-me:tablet>about-me:about:resume">
-      <caption webpage="about" alt=""/>
       <caption webpage="about-me" alt=""/>
+      <caption webpage="about" alt=""/>
     </file>
     <file name="3-u19695-fr.jpg" crc="351987050" ref="phone>gallery-project"/>
     <file name="3-u19695-fr_2x.jpg" crc="3958443121" ref="phone>gallery-project"/>
     <file name="7.jpg" crc="129014987" ref="phone>gallery-project:hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
+      <caption webpage="hyundai" alt=""/>
       <caption webpage="gallery-project" alt=""/>
     </file>
     <file name="7_2x.jpg" crc="460747200" ref="phone>gallery-project:hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
+      <caption webpage="hyundai" alt=""/>
       <caption webpage="gallery-project" alt=""/>
     </file>
     <file name="2.jpg" crc="466923791" ref="phone>gallery-project:hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
+      <caption webpage="hyundai" alt=""/>
       <caption webpage="gallery-project" alt=""/>
     </file>
     <file name="2_2x.jpg" crc="315907485" ref="phone>gallery-project:hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
+      <caption webpage="hyundai" alt=""/>
       <caption webpage="gallery-project" alt=""/>
     </file>
     <file name="6_2x.jpg" crc="233541453" ref="phone>gallery-project:hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
+      <caption webpage="hyundai" alt=""/>
       <caption webpage="gallery-project" alt=""/>
     </file>
     <file name="4-u19697-fr.jpg" crc="324122252" ref="phone>gallery-project"/>
@@ -380,56 +389,50 @@
     <file name="5-u9164-fr.jpg" crc="536060121" ref="tablet>gallery-project"/>
     <file name="5-u9164-fr_2x.jpg" crc="4249568292" ref="tablet>gallery-project"/>
     <file name="mamo_logo_white.png" crc="3909328945" seo="true" ref="index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume">
-      <caption webpage="sustainability" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="nissan" alt=""/>
-      <caption webpage="about-me" alt=""/>
-      <caption webpage="photography" alt=""/>
-      <caption webpage="illustration" alt=""/>
-      <caption webpage="resume" alt=""/>
-      <caption webpage="power" alt=""/>
-      <caption webpage="slider-project" alt=""/>
-      <caption webpage="vimeo-project" alt=""/>
-      <caption webpage="parallax-project" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="logo" alt=""/>
-      <caption webpage="hyundai" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
       <caption webpage="transportation" alt=""/>
       <caption webpage="5friends" alt=""/>
+      <caption webpage="photography" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="vimeo-project" alt=""/>
+      <caption webpage="sustainability" alt=""/>
+      <caption webpage="slider-project" alt=""/>
+      <caption webpage="parallax-project" alt=""/>
+      <caption webpage="about-me" alt=""/>
+      <caption webpage="logo" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="hyundai" alt=""/>
+      <caption webpage="power" alt=""/>
+      <caption webpage="gallery-project" alt=""/>
+      <caption webpage="nissan" alt=""/>
     </file>
     <file name="mamo_logo_white_2x.png" crc="240398518" seo="true" ref="index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume">
-      <caption webpage="sustainability" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="nissan" alt=""/>
-      <caption webpage="about-me" alt=""/>
-      <caption webpage="photography" alt=""/>
-      <caption webpage="illustration" alt=""/>
-      <caption webpage="resume" alt=""/>
-      <caption webpage="power" alt=""/>
-      <caption webpage="slider-project" alt=""/>
-      <caption webpage="vimeo-project" alt=""/>
-      <caption webpage="parallax-project" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="logo" alt=""/>
-      <caption webpage="hyundai" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
       <caption webpage="transportation" alt=""/>
       <caption webpage="5friends" alt=""/>
+      <caption webpage="photography" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="vimeo-project" alt=""/>
+      <caption webpage="sustainability" alt=""/>
+      <caption webpage="slider-project" alt=""/>
+      <caption webpage="parallax-project" alt=""/>
+      <caption webpage="about-me" alt=""/>
+      <caption webpage="logo" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="hyundai" alt=""/>
+      <caption webpage="power" alt=""/>
+      <caption webpage="gallery-project" alt=""/>
+      <caption webpage="nissan" alt=""/>
     </file>
     <file name="4.jpg" crc="3868164956" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
-      <caption webpage="gallery-project" alt=""/>
       <caption webpage="hyundai" alt=""/>
+      <caption webpage="gallery-project" alt=""/>
     </file>
     <file name="5.jpg" crc="146123068" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
-      <caption webpage="gallery-project" alt=""/>
       <caption webpage="hyundai" alt=""/>
-    </file>
-    <file name="seattle-9.jpg" crc="78472018" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="seattle-9_2x.jpg" crc="4152506854" ref="index">
-      <caption webpage="index" alt=""/>
+      <caption webpage="gallery-project" alt=""/>
     </file>
   </folder>
   <folder name="tablet">
@@ -578,16 +581,17 @@
     <file name="shop-item.html" crc="100456985" seo="true" mt="1517013267091" redirect="true"/>
     <file name="blog-masonry.html" crc="513756281" seo="true" mt="1517013269410" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3764589167" seo="true" mt="1517266308010" redirect="true"/>
-  <file name="hyundai.html" crc="4189422220" seo="true" mt="1517266308010" redirect="true"/>
-  <file name="transportation.html" crc="334801999" seo="true" mt="1517266308010" redirect="true"/>
-  <file name="nissan.html" crc="4033512409" seo="true" mt="1517266308010" redirect="true"/>
-  <file name="sustainability.html" crc="3974379169" seo="true" mt="1517266308010" redirect="true"/>
-  <file name="about.html" crc="3877135622" seo="true" mt="1517266429211" redirect="true"/>
-  <file name="5friends.html" crc="360832583" seo="true" mt="1517266308010" redirect="true"/>
-  <file name="power.html" crc="224555543" seo="true" mt="1517266308010" redirect="true"/>
-  <file name="logo.html" crc="463558844" seo="true" mt="1517266308010" redirect="true"/>
-  <file name="illustration.html" crc="4201398947" seo="true" mt="1517266308010" redirect="true"/>
-  <file name="photography.html" crc="3924420912" seo="true" mt="1517266308010" redirect="true"/>
-  <file name="resume.html" crc="27695526" seo="true" mt="1517266447648" redirect="true"/>
+  <file name="index.html" crc="157732198" seo="true" mt="1517287610826" redirect="true"/>
+  <file name="hyundai.html" crc="4281542794" seo="true" mt="1517287610826" redirect="true"/>
+  <file name="transportation.html" crc="3833862854" seo="true" mt="1517287610826" redirect="true"/>
+  <file name="nissan.html" crc="4271723346" seo="true" mt="1517287610826" redirect="true"/>
+  <file name="sustainability.html" crc="3896692671" seo="true" mt="1517287610826" redirect="true"/>
+  <file name="about.html" crc="4105255223" seo="true" mt="1517287610826" redirect="true"/>
+  <file name="5friends.html" crc="3943197974" seo="true" mt="1517287610826" redirect="true"/>
+  <file name="power.html" crc="135151538" seo="true" mt="1517287610826" redirect="true"/>
+  <file name="logo.html" crc="162699472" seo="true" mt="1517287610826" redirect="true"/>
+  <file name="illustration.html" crc="3874361868" seo="true" mt="1517287610826" redirect="true"/>
+  <file name="photography.html" crc="3887864354" seo="true" mt="1517287610826" redirect="true"/>
+  <file name="resume.html" crc="3768006614" seo="true" mt="1517287610826" redirect="true"/>
+  <file name="video.html" crc="501770225" seo="true" mt="1517272909940" redirect="true"/>
 </manifest>
