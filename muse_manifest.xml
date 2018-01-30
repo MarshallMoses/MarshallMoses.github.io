@@ -1,19 +1,20 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="muse.creative-routine.a2hosted.com/clymene" resolutions="1x,2x" timestamp="1517292920772">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="muse.creative-routine.a2hosted.com/clymene" resolutions="1x,2x" timestamp="1517333773758">
   <folder name="css">
     <file name="site_global.css" crc="531314014"/>
-    <file name="master_simple-menu.css" crc="39317082" ref="index:resume:sustainability:power:hyundai:photography:5friends:logo:transportation:about:illustration:nissan"/>
-    <file name="index.css" crc="3931441627" ref="index"/>
-    <file name="resume.css" crc="3775490150" ref="resume"/>
+    <file name="master_simple-menu.css" crc="39317082" ref="index:sustainability:photography:illustration:power:logo:transportation:about:resume:5friends:hyundai:nissan:test"/>
+    <file name="index.css" crc="125413145" ref="index"/>
     <file name="sustainability.css" crc="532189503" ref="sustainability"/>
-    <file name="power.css" crc="3996248873" ref="power"/>
-    <file name="hyundai.css" crc="4093643371" ref="hyundai"/>
     <file name="photography.css" crc="4102724839" ref="photography"/>
-    <file name="5friends.css" crc="524826265" ref="5friends"/>
+    <file name="illustration.css" crc="3801796908" ref="illustration"/>
+    <file name="power.css" crc="3996248873" ref="power"/>
     <file name="logo.css" crc="3938972746" ref="logo"/>
     <file name="transportation.css" crc="411524084" ref="transportation"/>
     <file name="about.css" crc="4019440819" ref="about"/>
-    <file name="illustration.css" crc="3801796908" ref="illustration"/>
+    <file name="resume.css" crc="3775490150" ref="resume"/>
+    <file name="5friends.css" crc="524826265" ref="5friends"/>
+    <file name="hyundai.css" crc="4093643371" ref="hyundai"/>
     <file name="nissan.css" crc="3874988166" ref="nissan"/>
+    <file name="test.css" crc="3996080834" ref="test"/>
   </folder>
   <folder name="assets">
     <file name="colorbox.css" crc="4170973745" seo="true" mt="1416133372000"/>
@@ -28,7 +29,6 @@
     <file name="3.png" crc="3765736259" seo="true" mt="1452232268000"/>
     <file name="4.png" crc="85259229" seo="true" mt="1452232272000"/>
     <file name="work12.jpg" crc="4085435187" seo="true" mt="1452232762000"/>
-    <file name="3.jpg" crc="4211876162" seo="true" mt="1452232522000"/>
     <file name="color-gold.css" crc="3941435227" seo="true" mt="1417642614000"/>
     <file name="bullet.png" crc="266885395" seo="true" mt="1415223056000"/>
     <file name="bullet_boxed.png" crc="3903780601" seo="true" mt="1411335518000"/>
@@ -47,17 +47,18 @@
     <file name="14_jquery.counterup.min.js" crc="3831897152" seo="true" mt="1385429240000"/>
     <file name="15_waypoints.min.js" crc="533621661" seo="true" mt="1386479746000"/>
     <file name="18_jquery.fitvids.js" crc="253869776" seo="true" mt="1386905522000"/>
-    <file name="1.jpg" crc="321761966" seo="true" mt="1452232518000"/>
-    <file name="2.jpg" crc="4186760864" seo="true" mt="1452232634000"/>
     <file name="16_smk-accordion.js" crc="268020334" seo="true" mt="1409820578000"/>
     <file name="17_scrollreveal.js" crc="238993579" seo="true" mt="1401145482000"/>
     <file name="19_jquery.hidescroll.min.js" crc="435308438" seo="true" mt="1407679624000"/>
     <file name="20_jquery.colorbox.js" crc="47893707" seo="true" mt="1384763446000"/>
+    <file name="2.jpg" crc="4186760864" seo="true" mt="1452232634000"/>
+    <file name="3.jpg" crc="4211876162" seo="true" mt="1452232522000"/>
     <file name="7.jpg" crc="455457185" seo="true" mt="1452232728000"/>
     <file name="8.jpg" crc="482797695" seo="true" mt="1452232730000"/>
     <file name="9.jpg" crc="3995589755" seo="true" mt="1452232734000"/>
     <file name="plus.gif" crc="3969446501" seo="true" mt="1369760810000"/>
     <file name="plus_cursor.png" crc="4195337715" seo="true" mt="1404708356000"/>
+    <file name="1.jpg" crc="321761966" seo="true" mt="1452232518000"/>
     <file name="revicons.svg" crc="219720840" seo="true" mt="1411310400000"/>
     <file name="revicons.ttf" crc="9952815" seo="true" mt="1411332046000"/>
     <file name="revicons.woff" crc="89736906" seo="true" mt="1411332046000"/>
@@ -93,96 +94,73 @@
     <file name="sustatosu_small.mp4" crc="3962803747" seo="true" mt="1516902979000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
-    <file name="museutils.js" crc="3803043152" ref="index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
-    <file name="whatinput.js" crc="86476730" ref="index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
-    <file name="museconfig.js" crc="4153641093" ref="index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
-    <file name="jquery.watch.js" crc="99325471" ref="index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume:index"/>
-    <file name="require.js" crc="4157109226" ref="index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="hyundai:transportation:nissan:sustainability:index:about:5friends:power:logo:illustration:photography:resume:test"/>
+    <file name="museutils.js" crc="3803043152" ref="hyundai:transportation:nissan:sustainability:index:about:5friends:power:logo:illustration:photography:resume:test"/>
+    <file name="whatinput.js" crc="86476730" ref="hyundai:transportation:nissan:sustainability:index:about:5friends:power:logo:illustration:photography:resume:test"/>
+    <file name="museconfig.js" crc="4153641093" ref="hyundai:transportation:nissan:sustainability:index:about:5friends:power:logo:illustration:photography:resume:test"/>
+    <file name="jquery.watch.js" crc="99325471" ref="hyundai:transportation:nissan:sustainability:index:about:5friends:power:logo:illustration:photography:resume:test"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="hyundai:transportation:nissan:sustainability:index:about:5friends:power:logo:illustration:photography:resume"/>
+    <file name="require.js" crc="4157109226" ref="hyundai:transportation:nissan:sustainability:index:about:5friends:power:logo:illustration:photography:resume:test"/>
     <file name="jquery.scrolleffects.js" crc="530399994" ref="about:resume"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="4111325400" ref="hyundai"/>
-    <file name="6.jpg" crc="4031214296" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
-      <caption webpage="hyundai" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
-      <caption webpage="home---one-page" alt=""/>
-    </file>
+    <file name="favicon.ico" crc="4111325400" ref="hyundai:index"/>
     <file name="3.jpg" crc="4184575898" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
-      <caption webpage="home-corporate-1" alt=""/>
       <caption webpage="hyundai" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
-    </file>
-    <file name="about-me.jpg" crc="3829364038" ref="about:resume">
-      <caption webpage="about-me" alt=""/>
-      <caption webpage="about" alt=""/>
     </file>
     <file name="7.jpg" crc="129014987" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
       <caption webpage="hyundai" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
     </file>
     <file name="7_2x.jpg" crc="460747200" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
       <caption webpage="hyundai" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
     </file>
     <file name="2.jpg" crc="466923791" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
       <caption webpage="hyundai" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
     </file>
     <file name="2_2x.jpg" crc="315907485" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
       <caption webpage="hyundai" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
+    </file>
+    <file name="6.jpg" crc="4031214296" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
+      <caption webpage="hyundai" alt=""/>
     </file>
     <file name="6_2x.jpg" crc="233541453" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
       <caption webpage="hyundai" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
-    </file>
-    <file name="mamo_logo_white.png" crc="3909328945" seo="true" ref="index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume">
-      <caption webpage="5friends" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="power" alt=""/>
-      <caption webpage="slider-project" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="illustration" alt=""/>
-      <caption webpage="vimeo-project" alt=""/>
-      <caption webpage="sustainability" alt=""/>
-      <caption webpage="hyundai" alt=""/>
-      <caption webpage="parallax-project" alt=""/>
-      <caption webpage="about-me" alt=""/>
-      <caption webpage="logo" alt=""/>
-      <caption webpage="resume" alt=""/>
-      <caption webpage="transportation" alt=""/>
-      <caption webpage="photography" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
-      <caption webpage="nissan" alt=""/>
-    </file>
-    <file name="mamo_logo_white_2x.png" crc="240398518" seo="true" ref="index:hyundai:transportation:nissan:sustainability:about:5friends:power:logo:illustration:photography:resume">
-      <caption webpage="5friends" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="power" alt=""/>
-      <caption webpage="slider-project" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="illustration" alt=""/>
-      <caption webpage="vimeo-project" alt=""/>
-      <caption webpage="sustainability" alt=""/>
-      <caption webpage="hyundai" alt=""/>
-      <caption webpage="parallax-project" alt=""/>
-      <caption webpage="about-me" alt=""/>
-      <caption webpage="logo" alt=""/>
-      <caption webpage="resume" alt=""/>
-      <caption webpage="transportation" alt=""/>
-      <caption webpage="photography" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
-      <caption webpage="nissan" alt=""/>
     </file>
     <file name="4.jpg" crc="3868164956" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
       <caption webpage="hyundai" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
     </file>
     <file name="5.jpg" crc="146123068" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
       <caption webpage="hyundai" alt=""/>
-      <caption webpage="gallery-project" alt=""/>
+    </file>
+    <file name="mamo_logo_white.png" crc="3909328945" seo="true" ref="hyundai:transportation:nissan:sustainability:index:about:5friends:power:logo:illustration:photography:resume:test">
+      <caption webpage="test" alt=""/>
+      <caption webpage="5friends" alt=""/>
+      <caption webpage="photography" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="sustainability" alt=""/>
+      <caption webpage="hyundai" alt=""/>
+      <caption webpage="logo" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="transportation" alt=""/>
+      <caption webpage="power" alt=""/>
+      <caption webpage="nissan" alt=""/>
+    </file>
+    <file name="mamo_logo_white_2x.png" crc="240398518" seo="true" ref="hyundai:transportation:nissan:sustainability:index:about:5friends:power:logo:illustration:photography:resume:test">
+      <caption webpage="test" alt=""/>
+      <caption webpage="5friends" alt=""/>
+      <caption webpage="photography" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="sustainability" alt=""/>
+      <caption webpage="hyundai" alt=""/>
+      <caption webpage="logo" alt=""/>
+      <caption webpage="resume" alt=""/>
+      <caption webpage="transportation" alt=""/>
+      <caption webpage="power" alt=""/>
+      <caption webpage="nissan" alt=""/>
     </file>
     <file name="seattle-9.jpg" crc="19015140" ref="index">
       <caption webpage="index" alt=""/>
@@ -190,17 +168,21 @@
     <file name="seattle-9_2x.jpg" crc="3781538224" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="about-me.jpg" crc="3829364038" ref="about:resume">
+      <caption webpage="about" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3782628155" seo="true" mt="1517292903955" redirect="true"/>
-  <file name="hyundai.html" crc="4271732372" seo="true" mt="1517292903955" redirect="true"/>
-  <file name="transportation.html" crc="381193612" seo="true" mt="1517292903955" redirect="true"/>
-  <file name="nissan.html" crc="4222233355" seo="true" mt="1517292903955" redirect="true"/>
-  <file name="sustainability.html" crc="3827271877" seo="true" mt="1517292903955" redirect="true"/>
-  <file name="about.html" crc="157826855" seo="true" mt="1517292903955" redirect="true"/>
-  <file name="5friends.html" crc="321938837" seo="true" mt="1517292903955" redirect="true"/>
-  <file name="power.html" crc="3999830035" seo="true" mt="1517292903955" redirect="true"/>
-  <file name="logo.html" crc="485195974" seo="true" mt="1517292903955" redirect="true"/>
-  <file name="illustration.html" crc="414584785" seo="true" mt="1517292903955" redirect="true"/>
-  <file name="photography.html" crc="269078042" seo="true" mt="1517292903955" redirect="true"/>
-  <file name="resume.html" crc="4138741847" seo="true" mt="1517292903955" redirect="true"/>
+  <file name="hyundai.html" crc="3859240873" seo="true" mt="1517330361962" redirect="true"/>
+  <file name="transportation.html" crc="427826363" seo="true" mt="1517330361962" redirect="true"/>
+  <file name="nissan.html" crc="4136707835" seo="true" mt="1517330361962" redirect="true"/>
+  <file name="sustainability.html" crc="416674390" seo="true" mt="1517330361962" redirect="true"/>
+  <file name="index.html" crc="3884514035" seo="true" mt="1517332462650" redirect="true"/>
+  <file name="about.html" crc="289194653" seo="true" mt="1517330361962" redirect="true"/>
+  <file name="5friends.html" crc="4180122360" seo="true" mt="1517330361962" redirect="true"/>
+  <file name="power.html" crc="6098220" seo="true" mt="1517330361962" redirect="true"/>
+  <file name="logo.html" crc="436811946" seo="true" mt="1517330361962" redirect="true"/>
+  <file name="illustration.html" crc="4284198111" seo="true" mt="1517330361962" redirect="true"/>
+  <file name="photography.html" crc="270007193" seo="true" mt="1517330361962" redirect="true"/>
+  <file name="resume.html" crc="451281298" seo="true" mt="1517330361962" redirect="true"/>
+  <file name="test.html" crc="80585504" seo="true" mt="1517333656386" redirect="true"/>
 </manifest>
