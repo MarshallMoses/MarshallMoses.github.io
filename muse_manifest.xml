@@ -1,20 +1,20 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="muse.creative-routine.a2hosted.com/clymene" resolutions="1x,2x" timestamp="1517333773758">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="muse.creative-routine.a2hosted.com/clymene" resolutions="1x,2x" timestamp="1517895120639">
   <folder name="css">
-    <file name="site_global.css" crc="531314014"/>
-    <file name="master_simple-menu.css" crc="39317082" ref="index:sustainability:photography:illustration:power:logo:transportation:about:resume:5friends:hyundai:nissan:test"/>
-    <file name="index.css" crc="125413145" ref="index"/>
-    <file name="sustainability.css" crc="532189503" ref="sustainability"/>
-    <file name="photography.css" crc="4102724839" ref="photography"/>
-    <file name="illustration.css" crc="3801796908" ref="illustration"/>
-    <file name="power.css" crc="3996248873" ref="power"/>
-    <file name="logo.css" crc="3938972746" ref="logo"/>
-    <file name="transportation.css" crc="411524084" ref="transportation"/>
-    <file name="about.css" crc="4019440819" ref="about"/>
-    <file name="resume.css" crc="3775490150" ref="resume"/>
-    <file name="5friends.css" crc="524826265" ref="5friends"/>
-    <file name="hyundai.css" crc="4093643371" ref="hyundai"/>
-    <file name="nissan.css" crc="3874988166" ref="nissan"/>
-    <file name="test.css" crc="3996080834" ref="test"/>
+    <file name="site_global.css" crc="102659113"/>
+    <file name="master_simple-menu.css" crc="508186173" ref="index:sustainability:photography:illustration:power:logo:transportation:about:resume:5friends:hyundai:nissan:test"/>
+    <file name="index.css" crc="199279540" ref="index"/>
+    <file name="sustainability.css" crc="3987575082" ref="sustainability"/>
+    <file name="photography.css" crc="3818334529" ref="photography"/>
+    <file name="illustration.css" crc="4241796895" ref="illustration"/>
+    <file name="power.css" crc="429503533" ref="power"/>
+    <file name="logo.css" crc="220119625" ref="logo"/>
+    <file name="transportation.css" crc="4118472422" ref="transportation"/>
+    <file name="about.css" crc="4127887420" ref="about"/>
+    <file name="resume.css" crc="4180312709" ref="resume"/>
+    <file name="5friends.css" crc="3895823512" ref="5friends"/>
+    <file name="hyundai.css" crc="4192905934" ref="hyundai"/>
+    <file name="nissan.css" crc="395275161" ref="nissan"/>
+    <file name="test.css" crc="3878742282" ref="test"/>
   </folder>
   <folder name="assets">
     <file name="colorbox.css" crc="4170973745" seo="true" mt="1416133372000"/>
@@ -104,7 +104,7 @@
     <file name="jquery.scrolleffects.js" crc="530399994" ref="about:resume"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="4111325400" ref="hyundai:index"/>
+    <file name="favicon.ico" crc="4111325400" ref="hyundai"/>
     <file name="3.jpg" crc="4184575898" ref="hyundai:transportation:nissan:sustainability:5friends:power:logo:illustration:photography">
       <caption webpage="hyundai" alt=""/>
     </file>
@@ -133,34 +133,34 @@
       <caption webpage="hyundai" alt=""/>
     </file>
     <file name="mamo_logo_white.png" crc="3909328945" seo="true" ref="hyundai:transportation:nissan:sustainability:index:about:5friends:power:logo:illustration:photography:resume:test">
-      <caption webpage="test" alt=""/>
-      <caption webpage="5friends" alt=""/>
-      <caption webpage="photography" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="illustration" alt=""/>
+      <caption webpage="power" alt=""/>
       <caption webpage="sustainability" alt=""/>
       <caption webpage="hyundai" alt=""/>
+      <caption webpage="5friends" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="photography" alt=""/>
+      <caption webpage="nissan" alt=""/>
+      <caption webpage="test" alt=""/>
       <caption webpage="logo" alt=""/>
       <caption webpage="resume" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="illustration" alt=""/>
       <caption webpage="transportation" alt=""/>
-      <caption webpage="power" alt=""/>
-      <caption webpage="nissan" alt=""/>
     </file>
     <file name="mamo_logo_white_2x.png" crc="240398518" seo="true" ref="hyundai:transportation:nissan:sustainability:index:about:5friends:power:logo:illustration:photography:resume:test">
-      <caption webpage="test" alt=""/>
-      <caption webpage="5friends" alt=""/>
-      <caption webpage="photography" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="illustration" alt=""/>
+      <caption webpage="power" alt=""/>
       <caption webpage="sustainability" alt=""/>
       <caption webpage="hyundai" alt=""/>
+      <caption webpage="5friends" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="photography" alt=""/>
+      <caption webpage="nissan" alt=""/>
+      <caption webpage="test" alt=""/>
       <caption webpage="logo" alt=""/>
       <caption webpage="resume" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="illustration" alt=""/>
       <caption webpage="transportation" alt=""/>
-      <caption webpage="power" alt=""/>
-      <caption webpage="nissan" alt=""/>
     </file>
     <file name="seattle-9.jpg" crc="19015140" ref="index">
       <caption webpage="index" alt=""/>
@@ -172,17 +172,17 @@
       <caption webpage="about" alt=""/>
     </file>
   </folder>
-  <file name="hyundai.html" crc="3859240873" seo="true" mt="1517330361962" redirect="true"/>
-  <file name="transportation.html" crc="427826363" seo="true" mt="1517330361962" redirect="true"/>
-  <file name="nissan.html" crc="4136707835" seo="true" mt="1517330361962" redirect="true"/>
-  <file name="sustainability.html" crc="416674390" seo="true" mt="1517330361962" redirect="true"/>
-  <file name="index.html" crc="3884514035" seo="true" mt="1517332462650" redirect="true"/>
-  <file name="about.html" crc="289194653" seo="true" mt="1517330361962" redirect="true"/>
-  <file name="5friends.html" crc="4180122360" seo="true" mt="1517330361962" redirect="true"/>
-  <file name="power.html" crc="6098220" seo="true" mt="1517330361962" redirect="true"/>
-  <file name="logo.html" crc="436811946" seo="true" mt="1517330361962" redirect="true"/>
-  <file name="illustration.html" crc="4284198111" seo="true" mt="1517330361962" redirect="true"/>
-  <file name="photography.html" crc="270007193" seo="true" mt="1517330361962" redirect="true"/>
-  <file name="resume.html" crc="451281298" seo="true" mt="1517330361962" redirect="true"/>
-  <file name="test.html" crc="80585504" seo="true" mt="1517333656386" redirect="true"/>
+  <file name="hyundai.html" crc="380688616" seo="true" mt="1517894740192" redirect="true"/>
+  <file name="transportation.html" crc="3898497892" seo="true" mt="1517894740192" redirect="true"/>
+  <file name="nissan.html" crc="389309993" seo="true" mt="1517894740192" redirect="true"/>
+  <file name="sustainability.html" crc="3866823896" seo="true" mt="1517894740192" redirect="true"/>
+  <file name="index.html" crc="3991991446" seo="true" mt="1517894740192" redirect="true"/>
+  <file name="about.html" crc="3840466837" seo="true" mt="1517894740192" redirect="true"/>
+  <file name="5friends.html" crc="4236865595" seo="true" mt="1517894740192" redirect="true"/>
+  <file name="power.html" crc="317023693" seo="true" mt="1517894740192" redirect="true"/>
+  <file name="logo.html" crc="3863039815" seo="true" mt="1517894740192" redirect="true"/>
+  <file name="illustration.html" crc="30695440" seo="true" mt="1517894740192" redirect="true"/>
+  <file name="photography.html" crc="3991073629" seo="true" mt="1517894740192" redirect="true"/>
+  <file name="resume.html" crc="4112475077" seo="true" mt="1517894740192" redirect="true"/>
+  <file name="test.html" crc="117322671" seo="true" mt="1517894740192" redirect="true"/>
 </manifest>
