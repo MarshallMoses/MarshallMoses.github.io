@@ -11,15 +11,15 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=4111325400"/>
   <title>MaMo Creative - Marshall Moses Graphic Design</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=102659113"/>
-  <link rel="stylesheet" type="text/css" href="css/master_simple-menu.css?crc=508186173"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=199279540" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=131003076"/>
+  <link rel="stylesheet" type="text/css" href="css/master_simple-menu.css?crc=364351038"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=472585773" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
@@ -651,45 +651,53 @@ button.post-comment:hover{
         
      </div>
     </div>
-    <div class="browser_width colelem" id="u15504-bw">
-     <div class="size_browser_width" id="u15504"><!-- custom html -->
+    <div class="browser_width colelem" id="u33073-bw">
+     <div id="u33073"><!-- custom html -->
       
-                    <div class="header-top">
-  
-            <header class="cd-main-header grey-2-section">
-                <a class="cd-logo animsition-link" href="index.html"><img src="assets/mamo_logo.png" alt="Logo"></a>
+<style>
+.video-container {
+  position: absolute;
+  top: -5%;
+  bottom: 0;
+  width: 100%;
+  height: 115%; 
+  overflow: hidden;
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
 
-                <ul class="cd-header-buttons">
-                    <li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
-                </ul> <!-- cd-header-buttons -->
-            </header>
-    
-            <nav class="cd-nav">
-              <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
-                <li>
-                  <a href="index.html#home-portfolio" class="scroll">Work</a>
-                </li>
-                <li>
-                  <a href="about.html" class="scroll">About</a>
-                </li>
-                <li>
-                  <a href="resume.html" class="scroll">Résumé</a>
-                </li>
-              </ul> <!-- primary-nav -->
-            </nav> <!-- cd-nav --> 
-                    </div>
-                    <main class="cd-main-content"></main>
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
 
-                
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+            background-image: url(http://mamocreative.com/images/seattle-9_2x.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+}
+</style>
+
+<div class="video-container">
+    <video class="video" muted loop autoplay preload="auto">
+        <source src="assets/sustatosu_small.mp4" type="video/mp4">
+        <source src="assets/sustatosu_small.webm" type="video/webm">
+    </video>
+</div>
      </div>
     </div>
-    <div class="browser_width colelem" id="u29680-bw">
-     <div class="museBGSize" id="u29680"><!-- simple frame --></div>
-    </div>
-    <div class="clearfix colelem" id="pu20632"><!-- group -->
-     <div class="browser_width grpelem" id="u20632-bw">
-      <div class="size_browser_width" id="u20632"><!-- custom html -->
-       
+    <a class="anchor_item colelem" id="home-portfolio" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
+    <div class="browser_width colelem" id="u20632-bw">
+     <div class="size_browser_width" id="u20632"><!-- custom html -->
+      
                     <section class="section white-section section-padding-top-bottom actAsDiv">
 
                         <div class="container">
@@ -874,12 +882,42 @@ button.post-comment:hover{
 
                     </section>
                 
-      </div>
      </div>
-     <a class="anchor_item grpelem" id="home-portfolio" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="1169" data-content-above-spacer="1168" data-content-below-spacer="197" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="browser_width" id="u15504-bw">
+    <div class="size_browser_width" id="u15504"><!-- custom html -->
+     
+                    <div class="header-top">
+  
+            <header class="cd-main-header grey-2-section">
+                <a class="cd-logo animsition-link" href="index.html"><img src="assets/mamo_logo.png" alt="Logo"></a>
+
+                <ul class="cd-header-buttons">
+                    <li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+                </ul> <!-- cd-header-buttons -->
+            </header>
+    
+            <nav class="cd-nav">
+              <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+                <li>
+                  <a href="index.html#home-portfolio" class="scroll">Work</a>
+                </li>
+                <li>
+                  <a href="about.html" class="scroll">About</a>
+                </li>
+                <li>
+                  <a href="resume.html" class="scroll">Résumé</a>
+                </li>
+              </ul> <!-- primary-nav -->
+            </nav> <!-- cd-nav --> 
+                    </div>
+                    <main class="cd-main-content"></main>
+
+                
+    </div>
+   </div>
+   <div class="verticalspacer" data-offset-top="1182" data-content-above-spacer="1181" data-content-below-spacer="197" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    <div class="clearfix grpelem" id="pu100"><!-- group -->
     <div class="browser_width grpelem" id="u100-bw">
      <div id="u100"><!-- simple frame --></div>
@@ -932,7 +970,7 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.detectScreenResolution();/* HiDPI screens */
@@ -1109,7 +1147,7 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
             </script>
             <script type="text/javascript" src="assets/06_smoothscroll.js"></script>
             <script type="text/javascript" src="assets/12_isotope.js"></script>
-            <script type="text/javascript" src="Add File"></script>
+            <script type="text/javascript" src="assets/14_jquery.counterup.min2.js"></script>
             <script type="text/javascript" src="assets/15_waypoints.min.js"></script>
             <script type="text/javascript" src="assets/17_scrollreveal.js"></script>
 <script type="text/javascript">
@@ -1174,6 +1212,51 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 
             </script>
         
+        <script>
+            $(".group1").colorbox({rel:'group1', transition:"fade", maxWidth:'95%', maxHeight:'95%'});
+            $(".youtube").colorbox({iframe:true, innerWidth:940, innerHeight:450});
+            $(".vimeo").colorbox({iframe:true, innerWidth:940, innerHeight:450});
+        </script>
+
+        <script>
+                //Portfolio filter 
+
+            $(window).load(function () {
+                var $container = $('#projects-grid');
+                var $filter = $('#filter');
+                // Initialize isotope 
+                $container.isotope({
+                    filter: '*',
+                    layoutMode: 'fitRows',
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear'
+                    }
+                });
+                // Filter items when filter link is clicked
+                $filter.find('a').click(function () {
+                    var selector = $(this).attr('data-filter');
+                    $filter.find('a').removeClass('current');
+                    $(this).addClass('current');
+                    $container.isotope({
+                        filter: selector,
+                        animationOptions: {
+                            animationDuration: 750,
+                            easing: 'linear',
+                            queue: false,
+                        }
+                    });
+                    return false;
+                }); 
+            });
+        </script>
+
+        <script type="text/javascript">
+                $( " #filter li > a" ).remove( "a:empty" ).remove( "li:empty" );
+                $( " #filter li" ).remove( "li:empty" );
+        </script>
+
+    
                 <script>
                     $( "body" ).wrapInner( '<main class="cd-main-content"></main>' );
                     $( "body" ).append( '<nav class="cd-nav"></nav> );
@@ -1321,50 +1404,5 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
                         })(jQuery); 
                 </script>
             
-        <script>
-            $(".group1").colorbox({rel:'group1', transition:"fade", maxWidth:'95%', maxHeight:'95%'});
-            $(".youtube").colorbox({iframe:true, innerWidth:940, innerHeight:450});
-            $(".vimeo").colorbox({iframe:true, innerWidth:940, innerHeight:450});
-        </script>
-
-        <script>
-                //Portfolio filter 
-
-            $(window).load(function () {
-                var $container = $('#projects-grid');
-                var $filter = $('#filter');
-                // Initialize isotope 
-                $container.isotope({
-                    filter: '*',
-                    layoutMode: 'fitRows',
-                    animationOptions: {
-                        duration: 750,
-                        easing: 'linear'
-                    }
-                });
-                // Filter items when filter link is clicked
-                $filter.find('a').click(function () {
-                    var selector = $(this).attr('data-filter');
-                    $filter.find('a').removeClass('current');
-                    $(this).addClass('current');
-                    $container.isotope({
-                        filter: selector,
-                        animationOptions: {
-                            animationDuration: 750,
-                            easing: 'linear',
-                            queue: false,
-                        }
-                    });
-                    return false;
-                }); 
-            });
-        </script>
-
-        <script type="text/javascript">
-                $( " #filter li > a" ).remove( "a:empty" ).remove( "li:empty" );
-                $( " #filter li" ).remove( "li:empty" );
-        </script>
-
-    
    </body>
 </html>
