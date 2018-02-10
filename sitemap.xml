@@ -2,19 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/index.html</loc>
-    <lastmod>2018-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://muse.creative-routine.a2hosted.com/clymene/images/mamo_logo_white.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://muse.creative-routine.a2hosted.com/clymene/images/mamo_logo_white_2x.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/resume.html</loc>
-    <lastmod>2018-02-08</lastmod>
+    <lastmod>2018-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -26,7 +14,7 @@
   </url>
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/test.html</loc>
-    <lastmod>2018-02-08</lastmod>
+    <lastmod>2018-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -38,7 +26,7 @@
   </url>
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/photography.html</loc>
-    <lastmod>2018-02-08</lastmod>
+    <lastmod>2018-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -50,7 +38,7 @@
   </url>
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/illustration.html</loc>
-    <lastmod>2018-02-08</lastmod>
+    <lastmod>2018-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -62,7 +50,7 @@
   </url>
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/logo.html</loc>
-    <lastmod>2018-02-08</lastmod>
+    <lastmod>2018-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -74,7 +62,7 @@
   </url>
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/power.html</loc>
-    <lastmod>2018-02-08</lastmod>
+    <lastmod>2018-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -86,19 +74,7 @@
   </url>
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/5friends.html</loc>
-    <lastmod>2018-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://muse.creative-routine.a2hosted.com/clymene/images/mamo_logo_white.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://muse.creative-routine.a2hosted.com/clymene/images/mamo_logo_white_2x.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/sustainability.html</loc>
-    <lastmod>2018-02-08</lastmod>
+    <lastmod>2018-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -110,7 +86,7 @@
   </url>
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/about.html</loc>
-    <lastmod>2018-02-08</lastmod>
+    <lastmod>2018-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -121,20 +97,8 @@
     </image:image>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/transportation.html</loc>
-    <lastmod>2018-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://muse.creative-routine.a2hosted.com/clymene/images/mamo_logo_white.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://muse.creative-routine.a2hosted.com/clymene/images/mamo_logo_white_2x.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/hyundai.html</loc>
-    <lastmod>2018-02-08</lastmod>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/sustainability.html</loc>
+    <lastmod>2018-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -146,7 +110,31 @@
   </url>
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/nissan.html</loc>
-    <lastmod>2018-02-08</lastmod>
+    <lastmod>2018-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://muse.creative-routine.a2hosted.com/clymene/images/mamo_logo_white.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://muse.creative-routine.a2hosted.com/clymene/images/mamo_logo_white_2x.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/transportation.html</loc>
+    <lastmod>2018-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://muse.creative-routine.a2hosted.com/clymene/images/mamo_logo_white.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://muse.creative-routine.a2hosted.com/clymene/images/mamo_logo_white_2x.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/hyundai.html</loc>
+    <lastmod>2018-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -159,6 +147,12 @@
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/color-gold.css</loc>
     <lastmod>2014-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/bullet.png</loc>
+    <lastmod>2014-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -337,14 +331,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/work12.jpg</loc>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/4.png</loc>
     <lastmod>2016-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/bullet.png</loc>
-    <lastmod>2014-11-05</lastmod>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/work12.jpg</loc>
+    <lastmod>2016-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -505,12 +499,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/seattle-13.jpg</loc>
-    <lastmod>2018-01-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/metro-2942353_1920.jpg</loc>
     <lastmod>2017-11-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -535,19 +523,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/2.png</loc>
-    <lastmod>2016-01-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/4.png</loc>
-    <lastmod>2016-01-07</lastmod>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/resume_011818.pdf</loc>
+    <lastmod>2018-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/3.png</loc>
+    <lastmod>2016-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/2.png</loc>
     <lastmod>2016-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -559,14 +547,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/skeleton.css</loc>
-    <lastmod>2018-01-29</lastmod>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/owl.carousel.css</loc>
+    <lastmod>2014-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/owl.carousel.css</loc>
-    <lastmod>2014-11-16</lastmod>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/skeleton.css</loc>
+    <lastmod>2018-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -595,14 +583,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/revicons.ttf</loc>
-    <lastmod>2014-09-21</lastmod>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/colorbox.css</loc>
+    <lastmod>2014-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/colorbox.css</loc>
-    <lastmod>2014-11-16</lastmod>
+    <loc>http://muse.creative-routine.a2hosted.com/clymene/assets/revicons.ttf</loc>
+    <lastmod>2014-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
