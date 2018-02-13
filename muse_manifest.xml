@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mamocreative.com" resolutions="1x,2x" timestamp="1518547312952">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mamocreative.com" resolutions="1x,2x" timestamp="1518547807997">
   <folder name="css">
     <file name="site_global.css" crc="102659113"/>
     <file name="master_simple-menu.css" crc="4131017607" ref="about:nissan:index:works:dch:illustration:transportation:sustainability:5friends:photography:gusto:power:test:logo:hyundai"/>
