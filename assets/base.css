@@ -56,8 +56,7 @@ body {
 	font-size: 15px;
 	line-height:24px;
 	color:#707070;
-	overflow-x: hidden;
-	overflow-y: hidden;
+	overflow-x: none;
 	letter-spacing:1px;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
@@ -66,7 +65,7 @@ body {
  }
  html {
 		overflow-x:hidden; 
-
+	height:100%;
 }
 /* #Typography
 ================================================== */
