@@ -676,20 +676,35 @@ button.post-comment:hover{
       <div id="u74274"><!-- custom html -->
        
 <style>
-.image-container {
+.video-container {
   position: absolute;
-  top: -10%;
+  top: -5%;
   bottom: 0;
   width: 100%;
-  height: 100%; 
+  height: 115%; 
   overflow: hidden;
 }
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: 100%;
+  height: auto;
+
+  /* Center the video */
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 
 
+}
 </style>
 <div class="video-container">
     <video class="video" muted loop autoplay preload="auto">
-        <source src="assets/Door2Door_Animation_small.mp4" type="video/mp4">
+        <source src="assets/Door2Door_Animation_small.mp4"type="video/mp4">
     </video>
 </div>
       </div>
